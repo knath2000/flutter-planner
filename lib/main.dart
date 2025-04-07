@@ -15,8 +15,25 @@ Future<void> main() async {
   // Ensure Flutter bindings are initialized
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize Firebase
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  // Define Firebase options for web using environment variables
+  const firebaseOptionsWeb = FirebaseOptions(
+    apiKey: String.fromEnvironment('FLUTTER_FIREBASE_API_KEY'),
+    appId: String.fromEnvironment('FLUTTER_FIREBASE_APP_ID'),
+    messagingSenderId: String.fromEnvironment(
+      'FLUTTER_FIREBASE_MESSAGING_SENDER_ID',
+    ),
+    projectId: String.fromEnvironment('FLUTTER_FIREBASE_PROJECT_ID'),
+    authDomain: String.fromEnvironment('FLUTTER_FIREBASE_AUTH_DOMAIN'),
+    storageBucket: String.fromEnvironment('FLUTTER_FIREBASE_STORAGE_BUCKET'),
+    measurementId: String.fromEnvironment('FLUTTER_FIREBASE_MEASUREMENT_ID'),
+  );
+
+  // Initialize Firebase conditionally
+  await Firebase.initializeApp(
+    // Use web options if on web, otherwise use generated options
+    options:
+        kIsWeb ? firebaseOptionsWeb : DefaultFirebaseOptions.currentPlatform,
+  );
 
   // Run the app
   runApp(
