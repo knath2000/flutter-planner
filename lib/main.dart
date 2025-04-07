@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_core/firebase_core.dart'; // Import Firebase Core
-import 'firebase_options.dart'; // Import generated options
+// import 'firebase_options.dart'; // Import generated options - REMOVED
 
 // Import the custom theme
 import 'package:planner/presentation/theme/app_theme.dart';
@@ -30,10 +30,10 @@ Future<void> main() async {
   );
 
   // Initialize Firebase conditionally
+  // Initialize Firebase using options constructed solely from environment variables
   await Firebase.initializeApp(
-    // Use web options if on web, otherwise use generated options
     options:
-        kIsWeb ? firebaseOptionsWeb : DefaultFirebaseOptions.currentPlatform,
+        firebaseOptionsWeb, // Always use the env var options for Vercel build
   );
 
   // Run the app
