@@ -1,10 +1,6 @@
 {
   "version": 2,
   "framework": "flutter",
-  "build": {
-    "command": "flutter build web --release",
-    "outputDirectory": "build/web"
-  },
   "rewrites": [
     {
       "source": "/(.*)",
