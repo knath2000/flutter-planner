@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_core/firebase_core.dart'; // Import Firebase Core
-// import 'firebase_options.dart'; // Import generated options - REMOVED
+import 'firebase_options.dart'; // Import generated options
 
 // Import the custom theme
 import 'package:planner/presentation/theme/app_theme.dart';
@@ -16,25 +16,8 @@ Future<void> main() async {
   // Ensure Flutter bindings are initialized
   WidgetsFlutterBinding.ensureInitialized();
 
-  // Define Firebase options for web using environment variables
-  const firebaseOptionsWeb = FirebaseOptions(
-    apiKey: String.fromEnvironment('FLUTTER_FIREBASE_API_KEY'),
-    appId: String.fromEnvironment('FLUTTER_FIREBASE_APP_ID'),
-    messagingSenderId: String.fromEnvironment(
-      'FLUTTER_FIREBASE_MESSAGING_SENDER_ID',
-    ),
-    projectId: String.fromEnvironment('FLUTTER_FIREBASE_PROJECT_ID'),
-    authDomain: String.fromEnvironment('FLUTTER_FIREBASE_AUTH_DOMAIN'),
-    storageBucket: String.fromEnvironment('FLUTTER_FIREBASE_STORAGE_BUCKET'),
-    measurementId: String.fromEnvironment('FLUTTER_FIREBASE_MEASUREMENT_ID'),
-  );
-
-  // Initialize Firebase conditionally
-  // Initialize Firebase using options constructed solely from environment variables
-  await Firebase.initializeApp(
-    options:
-        firebaseOptionsWeb, // Always use the env var options for Vercel build
-  );
+  // Initialize Firebase
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   // Run the app
   runApp(
