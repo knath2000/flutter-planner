@@ -73,9 +73,23 @@ class TaskRepository {
             toFirestore: (task, _) => task.toJson(),
           )
           .snapshots() // Listen for real-time updates.
-          .map((snapshot) => snapshot.docs.map((doc) => doc.data()).toList())
-          .handleError((error) {
-            print("Error watching all tasks (collection group): $error");
+          .map((snapshot) {
+            // --- Logging Added ---
+            final tasks = snapshot.docs.map((doc) => doc.data()).toList();
+            print(
+              "[TaskRepository.watchAllTasks] Received ${tasks.length} tasks from collection group stream.",
+            );
+            // You could add more detailed logging here if needed, e.g.:
+            // tasks.forEach((task) => print("  - Task: ${task.title}, Status: ${task.status}"));
+            return tasks;
+            // --- End Logging ---
+          })
+          .handleError((error, stackTrace) {
+            // Also log stack trace
+            print(
+              "[TaskRepository.watchAllTasks] Error watching collection group: $error",
+            );
+            print("[TaskRepository.watchAllTasks] StackTrace: $stackTrace");
             // Depending on requirements, might rethrow or return an error stream.
             return <entity.Task>[];
           });
