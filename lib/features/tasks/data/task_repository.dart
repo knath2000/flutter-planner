@@ -50,30 +50,67 @@ class TaskRepository {
 
   // --- Repository Methods (Firestore Implementation) ---
 
-  // Note: watchAllTasks across all projects might be inefficient.
-  // Consider if this is truly needed or if tasks should always be watched per project.
-  // If needed, it would require a CollectionGroup query. For now, returning empty.
+  // Watches all tasks across all projects for the current user using a Collection Group query.
+  // Requires a Firestore index on the 'tasks' collection group: userId (asc), status (asc).
   Stream<List<entity.Task>> watchAllTasks() {
     if (_userId == null) {
-      return Stream.value([]); // No tasks for anonymous users
+      // Return an empty stream if the user is not logged in.
+      // The UI should ideally prevent reaching this state for authenticated features.
+      return Stream.value([]);
     }
-    // TODO: Implement with CollectionGroup query if cross-project task watching is required.
-    print(
-      "Warning: watchAllTasks across all projects is not implemented efficiently yet.",
-    );
-    return Stream.value([]);
+    try {
+      // Query the 'tasks' collection group.
+      return _firestore
+          .collectionGroup('tasks')
+          // Ensure the task belongs to the current user.
+          .where('userId', isEqualTo: _userId)
+          // Use the string representation for comparison as stored in Firestore.
+          // .where('status', isNotEqualTo: TaskStatus.done.toString()) // Filter out completed tasks - REMOVED, provider does this now
+          .withConverter<entity.Task>(
+            // Apply the converter
+            fromFirestore:
+                (snapshot, _) => entity.Task.fromJson(snapshot.data()!),
+            toFirestore: (task, _) => task.toJson(),
+          )
+          .snapshots() // Listen for real-time updates.
+          .map((snapshot) => snapshot.docs.map((doc) => doc.data()).toList())
+          .handleError((error) {
+            print("Error watching all tasks (collection group): $error");
+            // Depending on requirements, might rethrow or return an error stream.
+            return <entity.Task>[];
+          });
+    } catch (e) {
+      print("Error setting up watchAllTasks collection group query: $e");
+      return Stream.error(
+        Exception("Failed to watch all tasks: $e"),
+      ); // Return an error stream
+    }
   }
 
-  // Similar caution for getAllTasks across all projects.
+  // Fetches all tasks across all projects for the current user ONCE using a Collection Group query.
+  // Requires the same Firestore index as watchAllTasks.
   Future<List<entity.Task>> getAllTasks() async {
     if (_userId == null) {
       return []; // No tasks for anonymous users
     }
-    // TODO: Implement with CollectionGroup query if cross-project task fetching is required.
-    print(
-      "Warning: getAllTasks across all projects is not implemented efficiently yet.",
-    );
-    return [];
+    try {
+      final snapshot =
+          await _firestore
+              .collectionGroup('tasks')
+              .where('userId', isEqualTo: _userId)
+              // .where('status', isNotEqualTo: TaskStatus.done.toString()) // Filter out completed tasks - REMOVED, provider does this now
+              .withConverter<entity.Task>(
+                // Apply the converter
+                fromFirestore:
+                    (snapshot, _) => entity.Task.fromJson(snapshot.data()!),
+                toFirestore: (task, _) => task.toJson(),
+              )
+              .get();
+      return snapshot.docs.map((doc) => doc.data()).toList();
+    } catch (e) {
+      print("Error getting all tasks (collection group): $e");
+      return []; // Return empty list on error
+    }
   }
 
   Stream<List<entity.Task>> watchTasksForProjectUuid(String projectUuid) {
