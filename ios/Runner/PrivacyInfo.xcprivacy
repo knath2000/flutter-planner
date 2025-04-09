@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSPrivacyAccessedAPITypes</key>
+    <array>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPITypeUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>CA92.1</string> <!-- Declare reason CA92.1: Access info from user defaults to read app settings or preferences -->
+            </array>
+        </dict>
+        <!-- Add other required API declarations here if flagged by App Review later -->
+    </array>
+    <!-- Add NSPrivacyTrackingDomains or NSPrivacyCollectedDataTypes if needed -->
+    <!-- Based on current Firebase usage (Auth, Firestore, Perf), tracking is unlikely unless explicitly configured -->
+    <!-- Data collection is covered by App Store Nutrition Labels, but review Firebase docs if unsure -->
+</dict>
+</plist>
