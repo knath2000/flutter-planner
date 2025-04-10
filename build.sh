@@ -130,7 +130,7 @@ echo "lib/firebase_options.dart created."
 
 # Build Flutter web app for release
 echo "Building Flutter web app..."
-flutter build web --release --no-tree-shake-icons --web-renderer html
+flutter build web --release --no-tree-shake-icons --dart-define=FLUTTER_WEB_RENDERER=html
 
 # Prepare Vercel output directory structure
 # https://vercel.com/docs/build-output-api/v3#vercel-primitives/static-files
