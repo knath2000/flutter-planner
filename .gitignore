@@ -31,7 +31,6 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
 
 # Symbolication related
 app.*.symbols
@@ -55,3 +54,5 @@ lib/firebase_options.dart
 memory-bank/
 .clinerules
 docs/
+
+firebase_config.json

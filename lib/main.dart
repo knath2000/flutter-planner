@@ -1,7 +1,8 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_core/firebase_core.dart'; // Import Firebase Core
+import 'package:flutter/foundation.dart'
+    show defaultTargetPlatform, kIsWeb, TargetPlatform;
 import 'firebase_options.dart'; // Import generated options
 
 // Import the custom theme
@@ -17,7 +18,61 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // Initialize Firebase
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  // Initialize Firebase conditionally based on platform
+  if (kIsWeb) {
+    // For web, use environment variables passed during build
+    await Firebase.initializeApp(
+      options: const FirebaseOptions(
+        apiKey: String.fromEnvironment('FIREBASE_API_KEY'),
+        appId: String.fromEnvironment('FIREBASE_APP_ID'),
+        messagingSenderId: String.fromEnvironment(
+          'FIREBASE_MESSAGING_SENDER_ID',
+        ),
+        projectId: String.fromEnvironment('FIREBASE_PROJECT_ID'),
+        authDomain: String.fromEnvironment('FIREBASE_AUTH_DOMAIN'),
+        storageBucket: String.fromEnvironment('FIREBASE_STORAGE_BUCKET'),
+        measurementId: String.fromEnvironment('FIREBASE_MEASUREMENT_ID'),
+      ),
+    );
+  } else {
+    // For non-web platforms, attempt to use the generated options
+    // This part might need adjustment if you add support for other platforms
+    // without using the FlutterFire CLI for them.
+    // The original DefaultFirebaseOptions.currentPlatform logic is kept here.
+    FirebaseOptions options;
+    switch (defaultTargetPlatform) {
+      case TargetPlatform.iOS:
+        // Assuming you might eventually have DefaultFirebaseOptions.ios defined
+        // If not, this will need specific options or throw an error.
+        // options = DefaultFirebaseOptions.ios; // Example if defined elsewhere
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for iOS using environment variables.',
+        );
+      case TargetPlatform.macOS:
+        // Assuming you might eventually have DefaultFirebaseOptions.macos defined
+        // options = DefaultFirebaseOptions.macos; // Example if defined elsewhere
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macOS using environment variables.',
+        );
+      case TargetPlatform.android:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for android.',
+        );
+      case TargetPlatform.windows:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows.',
+        );
+      case TargetPlatform.linux:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for linux.',
+        );
+      default:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions are not supported for this platform.',
+        );
+    }
+    // await Firebase.initializeApp(options: options); // Uncomment and adjust if needed
+  }
 
   // Run the app
   runApp(
