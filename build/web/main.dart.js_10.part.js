@@ -1,877 +1,1584 @@
-((a,b,c)=>{a[b]=a[b]||{}
-a[b][c]=a[b][c]||[]
-a[b][c].push({p:"main.dart.js_10",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,D,A={
-aAS(d,e,f){var x=null
-return new A.KG(e,x,x,x,f,x,x,!1,x,!0,x,d,x)},
-aUc(d){var x=B.X(d),w=x.p1.as,v=w==null?null:w.r
-if(v==null)v=14
-w=B.cI(d,D.cg)
-w=w==null?null:w.gcP()
-if(w==null)w=D.ad
-return F.azS(new B.au(24,0,24,0),new B.au(12,0,12,0),new B.au(6,0,6,0),v*w.a/14)},
-KG:function KG(d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
-_.c=d
-_.d=e
-_.e=f
-_.f=g
-_.r=h
-_.w=i
-_.x=j
-_.y=k
-_.z=l
-_.Q=m
-_.at=n
-_.ax=o
-_.a=p},
-S9:function S9(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4){var _=this
-_.fy=d
-_.go=$
-_.a=e
-_.b=f
-_.c=g
-_.d=h
-_.e=i
-_.f=j
-_.r=k
-_.w=l
-_.x=m
-_.y=n
-_.z=o
-_.Q=p
-_.as=q
-_.at=r
-_.ax=s
-_.ay=t
-_.ch=u
-_.CW=v
-_.cx=w
-_.cy=x
-_.db=a0
-_.dx=a1
-_.dy=a2
-_.fr=a3
-_.fx=a4},
-amc:function amc(d){this.a=d},
-ame:function ame(d){this.a=d},
-amh:function amh(d){this.a=d},
-amd:function amd(){},
-amf:function amf(d){this.a=d},
-amg:function amg(){},
-Pk(d,e,f,g,h,i,j){var x=null,w=d.a.a
-return new A.D4(d,x,j,new A.ahL(e,x,E.cM,x,x,f,i,x,x,D.aF,x,x,E.kf,!1,x,x,!1,x,"\u2022",g,!0,x,x,!0,x,1,x,!1,x,x,!1,x,x,x,h,x,x,x,2,x,x,x,x,E.iO,x,x,x,x,x,x,x,!0,x,A.aWD(),x,x,x,x,x,D.cl,D.bY,D.a1,x,D.E,!0,!0,!0),w,!0,C.i7,x,x)},
-aQA(d,e){return F.azu(e)},
-D4:function D4(d,e,f,g,h,i,j,k,l){var _=this
-_.Q=d
-_.d=e
-_.e=f
-_.f=g
-_.r=h
-_.w=i
-_.x=j
-_.y=k
-_.a=l},
-ahL:function ahL(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5){var _=this
-_.a=d
-_.b=e
-_.c=f
-_.d=g
-_.e=h
-_.f=i
-_.r=j
-_.w=k
-_.x=l
-_.y=m
-_.z=n
-_.Q=o
-_.as=p
-_.at=q
-_.ax=r
-_.ay=s
-_.ch=t
-_.CW=u
-_.cx=v
-_.cy=w
-_.db=x
-_.dx=a0
-_.dy=a1
-_.fr=a2
-_.fx=a3
-_.fy=a4
-_.go=a5
-_.id=a6
-_.k1=a7
-_.k2=a8
-_.k3=a9
-_.k4=b0
-_.ok=b1
-_.p1=b2
-_.p2=b3
-_.p3=b4
-_.p4=b5
-_.R8=b6
-_.RG=b7
-_.rx=b8
-_.ry=b9
-_.to=c0
-_.x1=c1
-_.x2=c2
-_.xr=c3
-_.y1=c4
-_.y2=c5
-_.aU=c6
-_.aN=c7
-_.ad=c8
-_.b8=c9
-_.aP=d0
-_.aY=d1
-_.t=d2
-_.M=d3
-_.a0=d4
-_.ao=d5
-_.ak=d6
-_.az=d7
-_.ae=d8
-_.aZ=d9
-_.Y=e0
-_.a_=e1
-_.au=e2
-_.aV=e3
-_.d9=e4
-_.cz=e5},
-ahM:function ahM(d,e){this.a=d
-this.b=e},
-wZ:function wZ(d,e,f,g,h,i,j){var _=this
-_.ay=null
-_.e=_.d=$
-_.f=d
-_.r=e
-_.bl$=f
-_.f9$=g
-_.nN$=h
-_.dT$=i
-_.fa$=j
-_.c=_.a=null},
-J_:function J_(d,e){this.a=d
-this.b=e},
-Zo:function Zo(d,e,f,g){var _=this
-_.b=d
-_.c=e
-_.d=f
-_.a=g},
-aBe(d,e){return new A.zs(d,C.i7,e)},
-L9(d){var x=d.ag(y.B)
-return x==null?null:x.f},
-aRD(d,e,f){return new A.EC(e,f,d,null)},
-aNg(d){var x=null
-return new A.hr(new B.qB(!1,$.as()),B.L3(!0,x,!0,!0,x,x,!1),x,B.y(y.N,y.M),x,!0,x,d.i("hr<0>"))},
-zs:function zs(d,e,f){this.c=d
-this.x=e
-this.a=f},
-zt:function zt(d){var _=this
-_.d=0
-_.e=!1
-_.f=d
-_.c=_.a=null},
-a4K:function a4K(){},
-a4L:function a4L(d){this.a=d},
-a4M:function a4M(d,e){this.a=d
-this.b=e},
-EC:function EC(d,e,f,g){var _=this
-_.f=d
-_.r=e
-_.b=f
-_.a=g},
-li:function li(){},
-hr:function hr(d,e,f,g,h,i,j,k){var _=this
-_.e=_.d=$
-_.f=d
-_.r=e
-_.bl$=f
-_.f9$=g
-_.nN$=h
-_.dT$=i
-_.fa$=j
-_.c=_.a=null
-_.$ti=k},
-a4J:function a4J(d){this.a=d},
-a4I:function a4I(d,e){this.a=d
-this.b=e},
-a4H:function a4H(d){this.a=d},
-a4G:function a4G(d){this.a=d},
-a4F:function a4F(d){this.a=d},
-rV:function rV(d,e){this.a=d
-this.b=e},
-amK:function amK(){},
-wd:function wd(){},
-NV:function NV(d,e){var _=this
-_.cy=d
-_.y=null
-_.a=!1
-_.c=_.b=null
-_.Y$=0
-_.a_$=e
-_.aV$=_.au$=0},
-DI:function DI(d,e,f){this.c=d
-this.d=e
-this.a=f},
-Xe:function Xe(){this.c=this.a=this.d=null},
-aKY(){return new A.mL(null)},
-mL:function mL(d){this.a=d},
-QB:function QB(){this.d=!0
-this.c=this.a=null},
-akg:function akg(d){this.a=d},
-akf:function akf(d){this.a=d},
-akh:function akh(d){this.a=d},
-ake:function ake(d){this.a=d},
-aki:function aki(){},
-Ag:function Ag(d){this.a=d},
-F1:function F1(d,e,f){var _=this
-_.w=d
-_.x=e
-_.y=f
-_.z=!0
-_.Q=!1
-_.d=$
-_.c=_.a=null},
-ao5:function ao5(d){this.a=d},
-ao6:function ao6(d){this.a=d},
-ao8:function ao8(){},
-ao9:function ao9(d){this.a=d},
-ao7:function ao7(d){this.a=d},
-aob:function aob(){},
-aoa:function aoa(d){this.a=d},
-Cq:function Cq(d){this.a=d},
-Gl:function Gl(d,e,f,g){var _=this
-_.w=d
-_.x=e
-_.y=f
-_.z=g
-_.as=_.Q=!0
-_.at=!1
-_.d=$
-_.c=_.a=null},
-aqJ:function aqJ(d){this.a=d},
-aqK:function aqK(d){this.a=d},
-aqN:function aqN(){},
-aqO:function aqO(d){this.a=d},
-aqM:function aqM(d){this.a=d},
-aqP:function aqP(){},
-aqQ:function aqQ(d){this.a=d},
-aqL:function aqL(d){this.a=d},
-aqS:function aqS(d){this.a=d},
-aqR:function aqR(d){this.a=d},
-Ov(d,e,f){var x=0,w=B.M(y.H)
-var $async$Ov=B.H(function(g,h){if(g===1)return B.J(h,w)
-while(true)switch(x){case 0:x=2
-return B.Q(D.cT.ee(new A.Zo(d,e,f,"announce").W4()),$async$Ov)
-case 2:return B.K(null,w)}})
-return B.L($async$Ov,w)}},C,F,E,G,H
-B=c[0]
-D=c[2]
-A=a.updateHolder(c[6],A)
-C=c[14]
-F=c[10]
-E=c[13]
-G=c[7]
-H=c[9]
-A.KG.prototype={
-FR(d){var x=null
-B.X(d)
-B.X(d)
-return new A.S9(d,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,D.U,!0,D.J,x,x,x)},
-I7(d){var x
-d.ag(y.F)
-x=B.X(d)
-return x.aY.a}}
-A.S9.prototype={
-ghK(){var x,w=this,v=w.go
-if(v===$){x=B.X(w.fy)
-w.go!==$&&B.ag()
-v=w.go=x.ax}return v},
-gjy(){return new B.b6(B.X(this.fy).p1.as,y.e)},
-gbE(){return new B.bp(new A.amc(this),y.b)},
-gcp(){return new B.bp(new A.ame(this),y.b)},
-gfZ(){return new B.bp(new A.amh(this),y.b)},
-gc3(){var x=this.ghK().x1
-if(x==null)x=D.l
-return new B.b6(x,y.S)},
-gcD(){return D.bd},
-gcW(){return new B.bp(new A.amd(),y.y)},
-gct(){return new B.b6(A.aUc(this.fy),y.a)},
-gfX(){return E.yU},
-ge6(){return E.yT},
-gdG(){return new B.bp(new A.amf(this),y.k)},
-gfW(){return D.dy},
-gc7(){return D.dz},
-gfY(){return new B.bp(new A.amg(),y.A)},
-gh8(){return B.X(this.fy).Q},
-gh5(){return B.X(this.fy).f},
-gfI(){return B.X(this.fy).y}}
-A.D4.prototype={
-ac(){var x=null
-return new A.wZ(new B.qB(!1,$.as()),B.L3(!0,x,!0,!0,x,x,!1),x,B.y(y.N,y.M),x,!0,x)}}
-A.wZ.prototype={
-gpc(){var x=y.P.a(B.Z.prototype.gjD.call(this))
-return x.Q},
-h2(d,e){var x,w=this
-w.Z1(d,e)
-x=w.ay
-if(x!=null)w.ks(x,"controller")
-w.d=w.gpc().a.a},
-ar(){var x,w=this
-w.Z0()
-x=y.P
-x.a(B.Z.prototype.gjD.call(w))
-x.a(B.Z.prototype.gjD.call(w)).Q.a2(w.gD_())},
-aG(d){var x,w,v,u=this
-u.YZ(d)
-x=y.P
-w=d.Q
-if(x.a(B.Z.prototype.gjD.call(u)).Q!==w){v=u.gD_()
-w.J(v)
-x.a(B.Z.prototype.gjD.call(u)).Q.a2(v)
-x.a(B.Z.prototype.gjD.call(u))
-x.a(B.Z.prototype.gjD.call(u))
-u.d=x.a(B.Z.prototype.gjD.call(u)).Q.a.a}},
-l(){var x,w=this
-y.P.a(B.Z.prototype.gjD.call(w)).Q.J(w.gD_())
-x=w.ay
-if(x!=null){x.a4w()
-x.a_8()}w.Z_()},
-yy(d){var x
-this.YY(d)
-if(this.gpc().a.a!==d){x=this.gpc()
-x.r7(new B.cM(d,D.kj,D.bo))}},
-a6A(){var x=this
-if(x.gpc().a.a!==x.gEC())x.yy(x.gpc().a.a)}}
-A.J_.prototype={
-H(){return"Assertiveness."+this.b}}
-A.Zo.prototype={
-oh(){var x,w=B.y(y.R,y.z)
-w.m(0,"message",this.b)
-w.m(0,"textDirection",this.c.a)
-x=this.d
-if(x!==C.zC)w.m(0,"assertiveness",x.a)
-return w}}
-A.zs.prototype={
-ac(){return new A.zt(B.ay(y.W))}}
-A.zt.prototype={
-a5a(){var x=this
-x.a.toString
-x.e=x.f.hV(0,new A.a4K())
-x.Mm()},
-Mm(){this.a5(new A.a4L(this))},
-L(d){var x,w,v=this
-switch(v.a.x.a){case 1:v.m6()
-break
-case 2:if(v.e)v.m6()
-break
-case 3:case 0:break}x=v.a
-w=v.d
-return new A.DI(A.aRD(x.c,v,w),null,null)},
-vb(){this.e=!0
-this.Mm()
-return this.m6()},
-m6(){var x,w,v,u,t,s,r,q={},p=q.a=""
-this.a.toString
-for(x=this.f,x=B.c4(x,x.r,B.j(x).c),w=x.$ti.c,v=!1;x.q();){u=x.d
-if(u==null)u=w.a(u)
-u.r.gbH()
-v=D.fH.AZ(v,!u.vb())
-if(q.a.length===0){u=u.e
-u===$&&B.a()
-t=u.y
-s=t==null?B.j(u).i("bv.T").a(t):t
-q.a=s==null?p:s}}if(q.a.length!==0){r=this.c.ag(y.I).w
-if(B.aS()===D.M)B.Lf(new A.a4M(q,r),y.H)
-else A.Ov(q.a,r,C.l_)}return!v}}
-A.EC.prototype={
-cj(d){return this.r!==d.r}}
-A.li.prototype={
-ac(){return A.aNg(B.j(this).i("li.T"))}}
-A.hr.prototype={
-gEC(){var x=this.d
-return x===$?this.d=this.a.r:x},
-vb(){var x,w
-this.a5(new A.a4J(this))
-x=this.e
-x===$&&B.a()
-w=x.y
-return(w==null?B.j(x).i("bv.T").a(w):w)==null},
-m6(){var x,w=this.a
-w.toString
-x=this.e
-x===$&&B.a()
-x.sC(w.e.$1(this.gEC()))},
-yy(d){var x
-this.a5(new A.a4I(this,d))
-x=this.c
-x.toString
-x=A.L9(x)
-if(x!=null)x.a5a()},
-gdX(){return this.a.y},
-h2(d,e){var x=this,w=x.e
-w===$&&B.a()
-x.ks(w,"error_text")
-x.ks(x.f,"has_interacted_by_user")},
-dq(){var x=this.c
-x.toString
-x=A.L9(x)
-if(x!=null)x.f.E(0,this)
-this.n7()},
-ar(){var x,w,v=this
-v.aS()
-x=v.a.d
-w=$.as()
-v.e!==$&&B.bk()
-v.e=new A.NV(x,w)},
-aG(d){this.a_Y(d)
-this.a.toString},
-bk(){this.a_X()
-var x=this.c
-x.toString
-x=A.L9(x)
-switch(x==null?null:x.a.x){case C.l2:$.aa.R8$.push(new A.a4H(this))
-break
-case C.i8:case C.zF:case C.i7:case null:case void 0:break}},
-l(){var x=this,w=x.e
-w===$&&B.a()
-w.l()
-x.r.l()
-x.f.l()
-x.a_Z()},
-L(d){var x,w=this,v=null,u=w.a
-switch(u.x.a){case 1:w.m6()
-break
-case 2:u=w.f
-x=u.y
-if(x==null?B.j(u).i("bv.T").a(x):x)w.m6()
-break
-case 3:case 0:break}u=A.L9(d)
-if(u!=null)u.f.D(0,w)
-u=A.L9(d)
-if((u==null?v:u.a.x)===C.i8&&w.a.x!==C.l2||w.a.x===C.i8)return B.pB(!1,!1,w.a.f.$1(w),v,v,v,w.r,!0,v,new A.a4G(w),v,v,v,!0)
-return w.a.f.$1(w)}}
-A.rV.prototype={
-H(){return"AutovalidateMode."+this.b}}
-A.wd.prototype={
-aG(d){this.b4(d)
-this.nF()},
-bk(){var x,w,v,u,t=this
-t.dm()
-x=t.bl$
-w=t.gmJ()
-v=t.c
-v.toString
-v=B.nO(v)
-t.fa$=v
-u=t.m5(v,w)
-if(w){t.h2(x,t.dT$)
-t.dT$=!1}if(u)if(x!=null)x.l()},
-l(){var x,w=this
-w.f9$.a7(0,new A.amK())
-x=w.bl$
-if(x!=null)x.l()
-w.bl$=null
-w.aA()}}
-A.NV.prototype={}
-A.DI.prototype={
-ac(){return new A.Xe()}}
-A.Xe.prototype={
-bk(){var x,w=this
-w.dm()
-w.a.toString
-x=w.c
-x.toString
-w.d=B.Ay(x,null,y.X)
-w.a.toString},
-aG(d){this.b4(d)
-this.a.toString},
-l(){this.a.toString
-this.aA()},
-L(d){return this.a.c}}
-A.mL.prototype={
-ac(){return new A.QB()}}
-A.QB.prototype={
-L(d){var x,w=this,v=null,u=w.d,t=y.p
-u=B.lW(B.b([new B.iZ("Login",D.mU,new A.akg(w),!1,u,v),C.Ni,new B.iZ("Sign Up",C.EB,new A.akh(w),!1,!u,v)],t),D.a0,D.fX,D.b6)
-x=w.d?C.Ii:C.Mg
-return B.uU(v,D.t,B.qE(!0,B.eI(H.aQ7(new B.eK(C.A8,B.jH(B.b([u,C.Nl,B.avI(x,D.aq,new A.aki())],t),D.a0,D.af,D.bj),v),C.DW),v,v),!0),!1,v)}}
-A.Ag.prototype={
-ac(){var x=$.as()
-return new A.F1(new B.b4(null,y.w),new F.ku(E.c8,x),new F.ku(E.c8,x))}}
-A.F1.prototype={
-l(){var x=this.x,w=$.as()
-x.a_$=w
-x.Y$=0
-x=this.y
-x.a_$=w
-x.Y$=0
-this.aA()},
-rK(){var x=0,w=B.M(y.H),v=1,u=[],t=[],s=this,r,q,p,o,n,m,l
-var $async$rK=B.H(function(d,e){if(d===1){u.push(e)
-x=v}while(true)switch(x){case 0:x=s.w.gI().vb()&&!s.Q?2:3
-break
-case 2:s.a5(new A.ao5(s))
-v=5
-x=8
-return B.Q(s.gmF().hv($.YV(),y.o).kG(D.c.eq(s.x.a.a),D.c.eq(s.y.a.a)),$async$rK)
-case 8:if(s.c!=null){p=$.YJ().gI()
-if(p!=null)p.dK()}t.push(7)
-x=6
-break
-case 5:v=4
-l=u.pop()
-p=B.a1(l)
-if(p instanceof B.le){r=p
-q="An error occurred. Please try again."
-if(r.c==="user-not-found"||r.c==="wrong-password"||r.c==="invalid-credential")q="Invalid email or password."
-else if(r.c==="invalid-email")q="Please enter a valid email address."
-p=s.c
-if(p!=null){p=p.ag(y.q).f
-n=B.c2(q,null,null,null,null,null,null)
-m=s.c
-m.toString
-p.n2(B.qR(null,null,null,B.X(m).ax.fy,null,D.E,null,n,null,D.d0,null,null,null,null,null,null,null,null,null))}}else{p=s.c
-if(p!=null){p=p.ag(y.q).f
-n=s.c
-n.toString
-p.n2(B.qR(null,null,null,B.X(n).ax.fy,null,D.E,null,C.SE,null,D.d0,null,null,null,null,null,null,null,null,null))}}t.push(7)
-x=6
-break
-case 4:t=[1]
-case 6:v=1
-if(s.c!=null)s.a5(new A.ao6(s))
-x=t.pop()
-break
-case 7:case 3:return B.K(null,w)
-case 1:return B.J(u.at(-1),w)}})
-return B.L($async$rK,w)},
-L(d){var x,w=this,v=null,u=w.Q,t=A.Pk(w.x,F.u0(v,new G.eu(4,B.d6(8),E.cU),v,v,v,v,v,v,!0,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,"Email",!0,v,C.mZ,v,v,v,v,v,v,v,v,v,v,v),E.yC,!1,v,D.hC,new A.ao8()),s=B.d6(8),r=w.z
-s=A.Pk(w.y,F.u0(v,new G.eu(4,s,E.cU),v,v,v,v,v,v,!0,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,v,"Password",!0,v,C.j7,v,v,v,v,v,v,B.zC(v,v,B.pR(r?C.j6:C.j5,v,v,v,v),v,v,new A.ao9(w),v,v,v),v,v,v,v),v,r,new A.aoa(w),D.hB,new A.aob())
-r=u?v:w.ga9P()
-x=B.awb(v,v,v,v,v,v,v,v,v,v,v,C.y7,v,v,new B.cc(B.d6(8),D.p),v,v,v,v)
-return A.aBe(B.jH(B.b([t,C.k9,s,C.y9,A.aAS(u?C.yc:C.SF,r,x)],y.p),D.a0,D.af,D.bj),w.w)}}
-A.Cq.prototype={
-ac(){var x=$.as()
-return new A.Gl(new B.b4(null,y.w),new F.ku(E.c8,x),new F.ku(E.c8,x),new F.ku(E.c8,x))}}
-A.Gl.prototype={
-l(){var x=this,w=x.x,v=w.a_$=$.as()
-w.Y$=0
-w=x.y
-w.a_$=v
-w.Y$=0
-w=x.z
-w.a_$=v
-w.Y$=0
-x.aA()},
-t_(){var x=0,w=B.M(y.H),v=1,u=[],t=[],s=this,r,q,p,o,n,m,l,k
-var $async$t_=B.H(function(d,e){if(d===1){u.push(e)
-x=v}while(true)switch(x){case 0:x=s.w.gI().vb()&&!s.at?2:3
-break
-case 2:s.a5(new A.aqJ(s))
-v=5
-x=8
-return B.Q(s.gmF().hv($.YV(),y.o).kZ(D.c.eq(s.x.a.a),D.c.eq(s.y.a.a)),$async$t_)
-case 8:r=e
-if(s.c!=null&&r.gIs()!=null)B.c5("TODO: Trigger data migration for user "+r.gIs().a.c.a.a)
-if(s.c!=null){o=$.YJ().gI()
-if(o!=null)o.dK()}t.push(7)
-x=6
-break
-case 5:v=4
-k=u.pop()
-o=B.a1(k)
-if(o instanceof B.le){q=o
-p="An error occurred. Please try again."
-if(q.c==="weak-password")p="The password provided is too weak."
-else if(q.c==="email-already-in-use")p="An account already exists for that email."
-else if(q.c==="invalid-email")p="Please enter a valid email address."
-o=s.c
-if(o!=null){o=o.ag(y.q).f
-m=B.c2(p,null,null,null,null,null,null)
-l=s.c
-l.toString
-o.n2(B.qR(null,null,null,B.X(l).ax.fy,null,D.E,null,m,null,D.d0,null,null,null,null,null,null,null,null,null))}}else{o=s.c
-if(o!=null){o=o.ag(y.q).f
-m=s.c
-m.toString
-o.n2(B.qR(null,null,null,B.X(m).ax.fy,null,D.E,null,C.SD,null,D.d0,null,null,null,null,null,null,null,null,null))}}t.push(7)
-x=6
-break
-case 4:t=[1]
-case 6:v=1
-if(s.c!=null)s.a5(new A.aqK(s))
-x=t.pop()
-break
-case 7:case 3:return B.K(null,w)
-case 1:return B.J(u.at(-1),w)}})
-return B.L($async$t_,w)},
-L(d){var x,w,v=this,u=null,t=v.at,s=A.Pk(v.x,F.u0(u,new G.eu(4,B.d6(8),E.cU),u,u,u,u,u,u,!0,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,"Email",!0,u,C.mZ,u,u,u,u,u,u,u,u,u,u,u),E.yC,!1,u,D.hC,new A.aqN()),r=B.d6(8),q=v.Q
-r=A.Pk(v.y,F.u0(u,new G.eu(4,r,E.cU),u,u,u,u,u,u,!0,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,"Password",!0,u,C.j7,u,u,u,u,u,u,B.zC(u,u,B.pR(q?C.j6:C.j5,u,u,u,u),u,u,new A.aqO(v),u,u,u),u,u,u,u),u,q,u,D.hC,new A.aqP())
-q=B.d6(8)
-x=v.as
-q=A.Pk(v.z,F.u0(u,new G.eu(4,q,E.cU),u,u,u,u,u,u,!0,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,"Confirm Password",!0,u,C.j7,u,u,u,u,u,u,B.zC(u,u,B.pR(x?C.j6:C.j5,u,u,u,u),u,u,new A.aqQ(v),u,u,u),u,u,u,u),u,x,new A.aqR(v),D.hB,new A.aqS(v))
-x=t?u:v.gadT()
-w=B.awb(u,u,u,u,u,u,u,u,u,u,u,C.y7,u,u,new B.cc(B.d6(8),D.p),u,u,u,u)
-return A.aBe(B.jH(B.b([s,C.k9,r,C.k9,q,C.y9,A.aAS(t?C.yc:C.SK,x,w)],y.p),D.a0,D.af,D.bj),v.w)}}
-var z=a.updateTypes(["a4<~>()","r7(hr<l>)","~()","G(hr<@>)","e(R,jN)"])
-A.amc.prototype={
-$1(d){var x,w
-if(d.p(0,D.v)){x=this.a.ghK().k3
-return B.ao(31,x.u()>>>16&255,x.u()>>>8&255,x.u()&255)}x=this.a.ghK()
-w=x.p3
-return w==null?x.k2:w},
-$S:8}
-A.ame.prototype={
-$1(d){var x
-if(d.p(0,D.v)){x=this.a.ghK().k3
-return B.ao(97,x.u()>>>16&255,x.u()>>>8&255,x.u()&255)}return this.a.ghK().b},
-$S:8}
-A.amh.prototype={
-$1(d){if(d.p(0,D.Q))return this.a.ghK().b.b1(0.1)
-if(d.p(0,D.A))return this.a.ghK().b.b1(0.08)
-if(d.p(0,D.G))return this.a.ghK().b.b1(0.1)
-return null},
-$S:85}
-A.amd.prototype={
-$1(d){if(d.p(0,D.v))return 0
-if(d.p(0,D.Q))return 1
-if(d.p(0,D.A))return 3
-if(d.p(0,D.G))return 1
-return 1},
-$S:177}
-A.amf.prototype={
-$1(d){var x,w=this
-if(d.p(0,D.v)){x=w.a.ghK().k3
-return B.ao(97,x.u()>>>16&255,x.u()>>>8&255,x.u()&255)}if(d.p(0,D.Q))return w.a.ghK().b
-if(d.p(0,D.A))return w.a.ghK().b
-if(d.p(0,D.G))return w.a.ghK().b
-return w.a.ghK().b},
-$S:8}
-A.amg.prototype={
-$1(d){if(d.p(0,D.v))return D.aQ
-return D.b9},
-$S:44}
-A.ahL.prototype={
-$1(d){var x,w,v,u,t,s,r,q,p,o=this
-y.x.a(d)
-x=d.c
-x.toString
-w=o.a.EX(B.X(x).e)
-x=d.bl$
-v=d.gpc()
-u=d.e
-u===$&&B.a()
-t=u.y
-u=w.agV(t==null?B.j(u).i("bv.T").a(t):t)
-t=o.ch
-s=o.cy
-r=o.dx
-r=s?E.ye:E.yf
-q=o.dy
-q=s?E.yg:E.yh
-p=o.y2
-p=!s||!t
-return B.Dw(x,F.axj(o.db,o.ad,o.at,o.aN,o.cz,o.au,o.a_,o.t,v,o.to,o.x1,o.rx,o.az,o.ry,o.RG,u,o.Y,o.aP,p,o.fr,!0,o.id,o.e,o.c,o.R8,o.p3,o.y1,o.f,o.a0,o.k1,o.fx,o.fy,o.go,o.aY,s,o.cx,o.ak,new A.ahM(d,o.b),o.p1,o.p2,o.k2,o.k3,o.k4,o.ok,t,o.d,o.aV,o.b8,o.x2,o.xr,o.aU,o.ae,o.aZ,o.CW,r,q,o.M,o.ax,o.x,o.w,o.d9,o.y,o.z,o.as,o.Q,o.r,o.ay,o.ao))},
-$S:z+1}
-A.ahM.prototype={
-$1(d){this.a.yy(d)},
-$S:39}
-A.a4K.prototype={
-$1(d){var x=d.f,w=x.y
-return w==null?B.j(x).i("bv.T").a(w):w},
-$S:z+3}
-A.a4L.prototype={
-$0(){++this.a.d},
-$S:0}
-A.a4M.prototype={
-$0(){var x=0,w=B.M(y.H),v=this
-var $async$$0=B.H(function(d,e){if(d===1)return B.J(e,w)
-while(true)switch(x){case 0:x=2
-return B.Q(B.n8(D.e8,null,y.H),$async$$0)
-case 2:A.Ov(v.a.a,v.b,C.l_)
-return B.K(null,w)}})
-return B.L($async$$0,w)},
-$S:9}
-A.a4J.prototype={
-$0(){this.a.m6()},
-$S:0}
-A.a4I.prototype={
-$0(){var x=this.a
-x.d=this.b
-x.f.Ko(!0)},
-$S:0}
-A.a4H.prototype={
-$1(d){var x,w,v,u=this.a,t=u.a
-t.toString
-x=!1
-w=u.e
-w===$&&B.a()
-v=w.y
-if((v==null?B.j(w).i("bv.T").a(v):v)==null){t=t.e.$1(u.gEC())
-t=t==null
-t=!t}else t=x
-if(t)u.vb()},
-$S:6}
-A.a4G.prototype={
-$1(d){var x
-if(!d){x=this.a
-x.a5(new A.a4F(x))}},
-$S:37}
-A.a4F.prototype={
-$0(){this.a.m6()},
-$S:0}
-A.amK.prototype={
-$2(d,e){if(!d.a)d.J(e)},
-$S:40}
-A.akg.prototype={
-$0(){var x=this.a
-if(!x.d)x.a5(new A.akf(x))},
-$S:0}
-A.akf.prototype={
-$0(){return this.a.d=!0},
-$S:0}
-A.akh.prototype={
-$0(){var x=this.a
-if(x.d)x.a5(new A.ake(x))},
-$S:0}
-A.ake.prototype={
-$0(){return this.a.d=!1},
-$S:0}
-A.aki.prototype={
-$2(d,e){return new B.cE(e,!1,d,null)},
-$S:572}
-A.ao5.prototype={
-$0(){return this.a.Q=!0},
-$S:0}
-A.ao6.prototype={
-$0(){return this.a.Q=!1},
-$S:0}
-A.ao8.prototype={
-$1(d){if(D.c.eq(d).length===0||!D.c.p(d,"@"))return"Please enter a valid email address."
-return null},
-$S:66}
-A.ao9.prototype={
-$0(){var x=this.a
-x.a5(new A.ao7(x))},
-$S:0}
-A.ao7.prototype={
-$0(){var x=this.a
-x.z=!x.z},
-$S:0}
-A.aob.prototype={
-$1(d){var x=D.c.eq(d)
-if(x.length===0)return"Please enter your password."
-return null},
-$S:66}
-A.aoa.prototype={
-$1(d){return this.a.rK()},
-$S:39}
-A.aqJ.prototype={
-$0(){return this.a.at=!0},
-$S:0}
-A.aqK.prototype={
-$0(){return this.a.at=!1},
-$S:0}
-A.aqN.prototype={
-$1(d){if(D.c.eq(d).length===0||!D.c.p(d,"@"))return"Please enter a valid email address."
-return null},
-$S:66}
-A.aqO.prototype={
-$0(){var x=this.a
-x.a5(new A.aqM(x))},
-$S:0}
-A.aqM.prototype={
-$0(){var x=this.a
-x.Q=!x.Q},
-$S:0}
-A.aqP.prototype={
-$1(d){var x=D.c.eq(d).length
-if(x===0)return"Please enter a password."
-if(x<6)return"Password must be at least 6 characters."
-return null},
-$S:66}
-A.aqQ.prototype={
-$0(){var x=this.a
-x.a5(new A.aqL(x))},
-$S:0}
-A.aqL.prototype={
-$0(){var x=this.a
-x.as=!x.as},
-$S:0}
-A.aqS.prototype={
-$1(d){var x=D.c.eq(d)
-if(x.length===0)return"Please confirm your password."
-if(d!==this.a.y.a.a)return"Passwords do not match."
-return null},
-$S:66}
-A.aqR.prototype={
-$1(d){return this.a.t_()},
-$S:39};(function aliases(){var x=A.hr.prototype
-x.YY=x.yy
-x.Z1=x.h2
-x.Z0=x.ar
-x.YZ=x.aG
-x.Z_=x.l
-x=A.wd.prototype
-x.a_Y=x.aG
-x.a_X=x.bk
-x.a_Z=x.l})();(function installTearOffs(){var x=a._static_2,w=a._instance_0u
-x(A,"aWD","aQA",4)
-w(A.wZ.prototype,"gD_","a6A",2)
-w(A.F1.prototype,"ga9P","rK",0)
-w(A.Gl.prototype,"gadT","t_",0)})();(function inheritance(){var x=a.mixinHard,w=a.inherit,v=a.inheritMany
-w(A.KG,B.p5)
-w(A.S9,B.bj)
-v(B.fM,[A.amc,A.ame,A.amh,A.amd,A.amf,A.amg,A.ahL,A.ahM,A.a4K,A.a4H,A.a4G,A.ao8,A.aob,A.aoa,A.aqN,A.aqP,A.aqS,A.aqR])
-v(B.U,[A.li,A.zs,A.DI,A.mL])
-w(A.D4,A.li)
-v(B.Z,[A.wd,A.zt,A.Xe,A.QB])
-w(A.hr,A.wd)
-w(A.wZ,A.hr)
-v(B.rm,[A.J_,A.rV])
-w(A.Zo,B.Ot)
-v(B.iL,[A.a4L,A.a4M,A.a4J,A.a4I,A.a4F,A.akg,A.akf,A.akh,A.ake,A.ao5,A.ao6,A.ao9,A.ao7,A.aqJ,A.aqK,A.aqO,A.aqM,A.aqQ,A.aqL])
-w(A.EC,B.aY)
-v(B.iM,[A.amK,A.aki])
-w(A.NV,B.hc)
-v(B.pg,[A.Ag,A.Cq])
-v(B.mS,[A.F1,A.Gl])
-x(A.wd,B.ii)})()
-B.mu(b.typeUniverse,JSON.parse('{"KG":{"U":[],"e":[]},"S9":{"bj":[]},"D4":{"li":["l"],"U":[],"e":[],"li.T":"l"},"wZ":{"hr":["l"],"Z":["li<l>"]},"zs":{"U":[],"e":[]},"zt":{"Z":["zs"]},"EC":{"aY":[],"aQ":[],"e":[]},"li":{"U":[],"e":[]},"hr":{"Z":["li<1>"]},"NV":{"hc":["l?"],"bv":["l?"],"db":["l?"],"a5":[],"bv.T":"l?","hc.T":"l?"},"DI":{"U":[],"e":[]},"Xe":{"Z":["DI"]},"mL":{"U":[],"e":[]},"QB":{"Z":["mL"]},"Ag":{"U":[],"e":[]},"F1":{"Z":["Ag"]},"Cq":{"U":[],"e":[]},"Gl":{"Z":["Cq"]},"aMJ":{"d9":[],"aY":[],"aQ":[],"e":[]}}'))
-B.WY(b.typeUniverse,JSON.parse('{"wd":1}'))
-var y=(function rtii(){var x=B.a0
-return{o:x("kX"),I:x("eL"),F:x("aMJ"),W:x("hr<@>"),p:x("u<e>"),w:x("b4<zt>"),N:x("db<p?>"),R:x("l"),P:x("D4"),O:x("bU<l>"),S:x("b6<B>"),a:x("b6<co>"),e:x("b6<n?>"),B:x("EC"),q:x("oy"),x:x("wZ"),k:x("bp<B>"),y:x("bp<A>"),b:x("bp<B?>"),A:x("bp<cq?>"),z:x("@"),X:x("p?"),H:x("~"),M:x("~()")}})();(function constants(){C.zC=new A.J_(0,"polite")
-C.l_=new A.J_(1,"assertive")
-C.i7=new A.rV(0,"disabled")
-C.l2=new A.rV(1,"always")
-C.zF=new A.rV(2,"onUserInteraction")
-C.i8=new A.rV(3,"onUnfocus")
-C.A8=new B.a2(0,400,0,1/0)
-C.DW=new B.au(24,32,24,32)
-C.EB=new B.cY(58516,!1)
-C.j5=new B.cY(59069,!1)
-C.j6=new B.cY(59070,!1)
-C.Ey=new B.cY(58289,!1)
-C.j7=new B.lm(C.Ey,null,null,null,null)
-C.EF=new B.cY(61464,!1)
-C.mZ=new B.lm(C.EF,null,null,null,null)
-C.Uh=new B.bU("login",y.O)
-C.Ii=new A.Ag(C.Uh)
-C.Ui=new B.bU("signup",y.O)
-C.Mg=new A.Cq(C.Ui)
-C.y7=new B.N(1/0,50)
-C.Ni=new B.eh(16,null,null,null)
-C.k9=new B.eh(null,16,null,null)
-C.y9=new B.eh(null,24,null,null)
-C.Nl=new B.eh(null,32,null,null)
-C.Bn=new B.pb(2,D.i,null)
-C.yc=new B.eh(24,24,C.Bn,null)
-C.SD=new B.de("An unexpected error occurred during sign up.",null,null,null,null,null,null,null,null)
-C.SE=new B.de("An unexpected error occurred.",null,null,null,null,null,null,null,null)
-C.SF=new B.de("Login",null,null,null,null,null,null,null,null)
-C.SK=new B.de("Sign Up",null,null,null,null,null,null,null,null)})()};
-((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_10",e:"endPart",h:b})})($__dart_deferred_initializers__,"ylXKq2DcQPk+oFwREdLAZb1uOb0=");
+// Generated by dart2js (NullSafetyMode.sound, trust primitives, omit checks, lax runtime type, csp, intern-composite-values), the Dart to JavaScript compiler version: 3.7.2.
+((s, d, e) => {
+  s[d] = s[d] || {};
+  s[d][e] = s[d][e] || [];
+  s[d][e].push({p: "main.dart.js_10", e: "beginPart"});
+})(self, "$__dart_deferred_initializers__", "eventLog");
+$__dart_deferred_initializers__.current = function(hunkHelpers, init, holdersList, $) {
+  var B, D,
+  A = {
+    ElevatedButton$(child, onPressed, style) {
+      var _null = null;
+      return new A.ElevatedButton(onPressed, _null, _null, _null, style, _null, _null, false, _null, true, _null, child, _null);
+    },
+    _scaledPadding0(context) {
+      var theme = B.Theme_of(context),
+        t1 = theme.textTheme.labelLarge,
+        defaultFontSize = t1 == null ? null : t1.fontSize;
+      if (defaultFontSize == null)
+        defaultFontSize = 14;
+      t1 = B.MediaQuery__maybeOf(context, D._MediaQueryAspect_4);
+      t1 = t1 == null ? null : t1.get$textScaler();
+      if (t1 == null)
+        t1 = D._LinearTextScaler_1;
+      return F.ButtonStyleButton_scaledPadding(new B.EdgeInsets(24, 0, 24, 0), new B.EdgeInsets(12, 0, 12, 0), new B.EdgeInsets(6, 0, 6, 0), defaultFontSize * t1.textScaleFactor / 14);
+    },
+    ElevatedButton: function ElevatedButton(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12) {
+      var _ = this;
+      _.onPressed = t0;
+      _.onLongPress = t1;
+      _.onHover = t2;
+      _.onFocusChange = t3;
+      _.style = t4;
+      _.clipBehavior = t5;
+      _.focusNode = t6;
+      _.autofocus = t7;
+      _.statesController = t8;
+      _.isSemanticButton = t9;
+      _.tooltip = t10;
+      _.child = t11;
+      _.key = t12;
+    },
+    _ElevatedButtonDefaultsM3: function _ElevatedButtonDefaultsM3(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25) {
+      var _ = this;
+      _.context = t0;
+      _.___ElevatedButtonDefaultsM3__colors_FI = $;
+      _.textStyle = t1;
+      _.backgroundColor = t2;
+      _.foregroundColor = t3;
+      _.overlayColor = t4;
+      _.shadowColor = t5;
+      _.surfaceTintColor = t6;
+      _.elevation = t7;
+      _.padding = t8;
+      _.minimumSize = t9;
+      _.fixedSize = t10;
+      _.maximumSize = t11;
+      _.iconColor = t12;
+      _.iconSize = t13;
+      _.iconAlignment = t14;
+      _.side = t15;
+      _.shape = t16;
+      _.mouseCursor = t17;
+      _.visualDensity = t18;
+      _.tapTargetSize = t19;
+      _.animationDuration = t20;
+      _.enableFeedback = t21;
+      _.alignment = t22;
+      _.splashFactory = t23;
+      _.backgroundBuilder = t24;
+      _.foregroundBuilder = t25;
+    },
+    _ElevatedButtonDefaultsM3_backgroundColor_closure: function _ElevatedButtonDefaultsM3_backgroundColor_closure(t0) {
+      this.$this = t0;
+    },
+    _ElevatedButtonDefaultsM3_foregroundColor_closure: function _ElevatedButtonDefaultsM3_foregroundColor_closure(t0) {
+      this.$this = t0;
+    },
+    _ElevatedButtonDefaultsM3_overlayColor_closure: function _ElevatedButtonDefaultsM3_overlayColor_closure(t0) {
+      this.$this = t0;
+    },
+    _ElevatedButtonDefaultsM3_elevation_closure: function _ElevatedButtonDefaultsM3_elevation_closure() {
+    },
+    _ElevatedButtonDefaultsM3_iconColor_closure: function _ElevatedButtonDefaultsM3_iconColor_closure(t0) {
+      this.$this = t0;
+    },
+    _ElevatedButtonDefaultsM3_mouseCursor_closure: function _ElevatedButtonDefaultsM3_mouseCursor_closure() {
+    },
+    TextFormField$(controller, decoration, keyboardType, obscureText, onFieldSubmitted, textInputAction, validator) {
+      var _null = null,
+        t1 = controller._change_notifier$_value.text;
+      return new A.TextFormField(controller, _null, validator, new A.TextFormField_closure(decoration, _null, E.Type_EditableText_O5i, _null, _null, keyboardType, textInputAction, _null, _null, D.TextAlign_4, _null, _null, E.TextCapitalization_30, false, _null, _null, false, _null, "\u2022", obscureText, true, _null, _null, true, _null, 1, _null, false, _null, _null, false, _null, _null, _null, onFieldSubmitted, _null, _null, _null, 2, _null, _null, _null, _null, E.EdgeInsets_20_20_20_20, _null, _null, _null, _null, _null, _null, _null, true, _null, A.text_form_field_TextFormField__defaultContextMenuBuilder$closure(), _null, _null, _null, _null, _null, D.BoxHeightStyle_0, D.BoxWidthStyle_0, D.DragStartBehavior_1, _null, D.Clip_1, true, true, true), t1, true, C.AutovalidateMode_0, _null, _null);
+    },
+    TextFormField__defaultContextMenuBuilder(context, editableTextState) {
+      return F.AdaptiveTextSelectionToolbar$editableText(editableTextState);
+    },
+    TextFormField: function TextFormField(t0, t1, t2, t3, t4, t5, t6, t7, t8) {
+      var _ = this;
+      _.controller = t0;
+      _.forceErrorText = t1;
+      _.validator = t2;
+      _.builder = t3;
+      _.initialValue = t4;
+      _.enabled = t5;
+      _.autovalidateMode = t6;
+      _.restorationId = t7;
+      _.key = t8;
+    },
+    TextFormField_closure: function TextFormField_closure(t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15, t16, t17, t18, t19, t20, t21, t22, t23, t24, t25, t26, t27, t28, t29, t30, t31, t32, t33, t34, t35, t36, t37, t38, t39, t40, t41, t42, t43, t44, t45, t46, t47, t48, t49, t50, t51, t52, t53, t54, t55, t56, t57, t58, t59, t60, t61, t62, t63, t64, t65, t66) {
+      var _ = this;
+      _.decoration = t0;
+      _.onChanged = t1;
+      _.groupId = t2;
+      _.restorationId = t3;
+      _.focusNode = t4;
+      _.keyboardType = t5;
+      _.textInputAction = t6;
+      _.style = t7;
+      _.strutStyle = t8;
+      _.textAlign = t9;
+      _.textAlignVertical = t10;
+      _.textDirection = t11;
+      _.textCapitalization = t12;
+      _.autofocus = t13;
+      _.statesController = t14;
+      _.toolbarOptions = t15;
+      _.readOnly = t16;
+      _.showCursor = t17;
+      _.obscuringCharacter = t18;
+      _.obscureText = t19;
+      _.autocorrect = t20;
+      _.smartDashesType = t21;
+      _.smartQuotesType = t22;
+      _.enableSuggestions = t23;
+      _.maxLengthEnforcement = t24;
+      _.maxLines = t25;
+      _.minLines = t26;
+      _.expands = t27;
+      _.maxLength = t28;
+      _.onTap = t29;
+      _.onTapAlwaysCalled = t30;
+      _.onTapOutside = t31;
+      _.onTapUpOutside = t32;
+      _.onEditingComplete = t33;
+      _.onFieldSubmitted = t34;
+      _.inputFormatters = t35;
+      _.enabled = t36;
+      _.ignorePointers = t37;
+      _.cursorWidth = t38;
+      _.cursorHeight = t39;
+      _.cursorRadius = t40;
+      _.cursorColor = t41;
+      _.cursorErrorColor = t42;
+      _.scrollPadding = t43;
+      _.scrollPhysics = t44;
+      _.keyboardAppearance = t45;
+      _.enableInteractiveSelection = t46;
+      _.selectionControls = t47;
+      _.buildCounter = t48;
+      _.autofillHints = t49;
+      _.scrollController = t50;
+      _.enableIMEPersonalizedLearning = t51;
+      _.mouseCursor = t52;
+      _.contextMenuBuilder = t53;
+      _.spellCheckConfiguration = t54;
+      _.magnifierConfiguration = t55;
+      _.undoController = t56;
+      _.onAppPrivateCommand = t57;
+      _.cursorOpacityAnimates = t58;
+      _.selectionHeightStyle = t59;
+      _.selectionWidthStyle = t60;
+      _.dragStartBehavior = t61;
+      _.contentInsertionConfiguration = t62;
+      _.clipBehavior = t63;
+      _.scribbleEnabled = t64;
+      _.stylusHandwritingEnabled = t65;
+      _.canRequestFocus = t66;
+    },
+    TextFormField_closure_onChangedHandler: function TextFormField_closure_onChangedHandler(t0, t1) {
+      this.field = t0;
+      this.onChanged = t1;
+    },
+    _TextFormFieldState: function _TextFormFieldState(t0, t1, t2, t3, t4, t5, t6) {
+      var _ = this;
+      _._text_form_field$_controller = null;
+      _.__FormFieldState__errorText_F = _.__FormFieldState__value_AI = $;
+      _._hasInteractedByUser = t0;
+      _._form$_focusNode = t1;
+      _.RestorationMixin__bucket = t2;
+      _.RestorationMixin__properties = t3;
+      _.RestorationMixin__debugPropertiesWaitingForReregistration = t4;
+      _.RestorationMixin__firstRestorePending = t5;
+      _.RestorationMixin__currentParent = t6;
+      _._framework$_element = _._widget = null;
+    },
+    Assertiveness0: function Assertiveness0(t0, t1) {
+      this.index = t0;
+      this._name = t1;
+    },
+    AnnounceSemanticsEvent: function AnnounceSemanticsEvent(t0, t1, t2, t3) {
+      var _ = this;
+      _.message = t0;
+      _.textDirection = t1;
+      _.assertiveness = t2;
+      _.type = t3;
+    },
+    Form$(child, key) {
+      return new A.Form(child, C.AutovalidateMode_0, key);
+    },
+    Form_maybeOf(context) {
+      var scope = context.dependOnInheritedWidgetOfExactType$1$0(type$._FormScope);
+      return scope == null ? null : scope._formState;
+    },
+    _FormScope$(child, formState, generation) {
+      return new A._FormScope(formState, generation, child, null);
+    },
+    FormFieldState$($T) {
+      var _null = null;
+      return new A.FormFieldState(new B.RestorableBool(false, $.$get$ChangeNotifier__emptyListeners()), B.FocusNode$(true, _null, true, true, _null, _null, false), _null, B.LinkedHashMap_LinkedHashMap$_empty(type$.RestorableProperty_nullable_Object, type$.void_Function), _null, true, _null, $T._eval$1("FormFieldState<0>"));
+    },
+    Form: function Form(t0, t1, t2) {
+      this.child = t0;
+      this.autovalidateMode = t1;
+      this.key = t2;
+    },
+    FormState: function FormState(t0) {
+      var _ = this;
+      _._generation = 0;
+      _._hasInteractedByUser = false;
+      _._fields = t0;
+      _._framework$_element = _._widget = null;
+    },
+    FormState__fieldDidChange_closure: function FormState__fieldDidChange_closure() {
+    },
+    FormState__forceRebuild_closure: function FormState__forceRebuild_closure(t0) {
+      this.$this = t0;
+    },
+    FormState__validate_closure: function FormState__validate_closure(t0, t1) {
+      this._box_0 = t0;
+      this.directionality = t1;
+    },
+    _FormScope: function _FormScope(t0, t1, t2, t3) {
+      var _ = this;
+      _._formState = t0;
+      _._generation = t1;
+      _.child = t2;
+      _.key = t3;
+    },
+    FormField: function FormField() {
+    },
+    FormFieldState: function FormFieldState(t0, t1, t2, t3, t4, t5, t6, t7) {
+      var _ = this;
+      _.__FormFieldState__errorText_F = _.__FormFieldState__value_AI = $;
+      _._hasInteractedByUser = t0;
+      _._form$_focusNode = t1;
+      _.RestorationMixin__bucket = t2;
+      _.RestorationMixin__properties = t3;
+      _.RestorationMixin__debugPropertiesWaitingForReregistration = t4;
+      _.RestorationMixin__firstRestorePending = t5;
+      _.RestorationMixin__currentParent = t6;
+      _._framework$_element = _._widget = null;
+      _.$ti = t7;
+    },
+    FormFieldState_validate_closure: function FormFieldState_validate_closure(t0) {
+      this.$this = t0;
+    },
+    FormFieldState_didChange_closure: function FormFieldState_didChange_closure(t0, t1) {
+      this.$this = t0;
+      this.value = t1;
+    },
+    FormFieldState_didChangeDependencies_closure: function FormFieldState_didChangeDependencies_closure(t0) {
+      this.$this = t0;
+    },
+    FormFieldState_build_closure: function FormFieldState_build_closure(t0) {
+      this.$this = t0;
+    },
+    FormFieldState_build__closure: function FormFieldState_build__closure(t0) {
+      this.$this = t0;
+    },
+    AutovalidateMode: function AutovalidateMode(t0, t1) {
+      this.index = t0;
+      this._name = t1;
+    },
+    _FormFieldState_State_RestorationMixin_dispose_closure: function _FormFieldState_State_RestorationMixin_dispose_closure() {
+    },
+    _FormFieldState_State_RestorationMixin: function _FormFieldState_State_RestorationMixin() {
+    },
+    RestorableStringN: function RestorableStringN(t0, t1) {
+      var _ = this;
+      _._defaultValue = t0;
+      _._restoration_properties$_value = null;
+      _._restoration0$_disposed = false;
+      _._restoration0$_owner = _._restoration0$_restorationId = null;
+      _.ChangeNotifier__count = 0;
+      _.ChangeNotifier__listeners = t1;
+      _.ChangeNotifier__reentrantlyRemovedListeners = _.ChangeNotifier__notificationCallStackDepth = 0;
+    },
+    WillPopScope: function WillPopScope(t0, t1, t2) {
+      this.child = t0;
+      this.onWillPop = t1;
+      this.key = t2;
+    },
+    _WillPopScopeState: function _WillPopScopeState() {
+      this._framework$_element = this._widget = this._route = null;
+    },
+    AuthView$() {
+      return new A.AuthView(null);
+    },
+    AuthView: function AuthView(t0) {
+      this.key = t0;
+    },
+    _AuthViewState: function _AuthViewState() {
+      this._showLogin = true;
+      this._framework$_element = this._widget = null;
+    },
+    _AuthViewState_build_closure: function _AuthViewState_build_closure(t0) {
+      this.$this = t0;
+    },
+    _AuthViewState_build__closure0: function _AuthViewState_build__closure0(t0) {
+      this.$this = t0;
+    },
+    _AuthViewState_build_closure0: function _AuthViewState_build_closure0(t0) {
+      this.$this = t0;
+    },
+    _AuthViewState_build__closure: function _AuthViewState_build__closure(t0) {
+      this.$this = t0;
+    },
+    _AuthViewState_build_closure1: function _AuthViewState_build_closure1() {
+    },
+    LoginWidget: function LoginWidget(t0) {
+      this.key = t0;
+    },
+    _LoginWidgetState: function _LoginWidgetState(t0, t1, t2) {
+      var _ = this;
+      _._login_widget$_formKey = t0;
+      _._login_widget$_emailController = t1;
+      _._login_widget$_passwordController = t2;
+      _._login_widget$_obscurePassword = true;
+      _._login_widget$_isLoading = false;
+      _.__ConsumerState_ref_FI = $;
+      _._framework$_element = _._widget = null;
+    },
+    _LoginWidgetState__submit_closure: function _LoginWidgetState__submit_closure(t0) {
+      this.$this = t0;
+    },
+    _LoginWidgetState__submit_closure0: function _LoginWidgetState__submit_closure0(t0) {
+      this.$this = t0;
+    },
+    _LoginWidgetState_build_closure: function _LoginWidgetState_build_closure() {
+    },
+    _LoginWidgetState_build_closure0: function _LoginWidgetState_build_closure0(t0) {
+      this.$this = t0;
+    },
+    _LoginWidgetState_build__closure: function _LoginWidgetState_build__closure(t0) {
+      this.$this = t0;
+    },
+    _LoginWidgetState_build_closure2: function _LoginWidgetState_build_closure2() {
+    },
+    _LoginWidgetState_build_closure1: function _LoginWidgetState_build_closure1(t0) {
+      this.$this = t0;
+    },
+    SignUpWidget: function SignUpWidget(t0) {
+      this.key = t0;
+    },
+    _SignUpWidgetState: function _SignUpWidgetState(t0, t1, t2, t3) {
+      var _ = this;
+      _._formKey = t0;
+      _._emailController = t1;
+      _._passwordController = t2;
+      _._confirmPasswordController = t3;
+      _._obscureConfirmPassword = _._obscurePassword = true;
+      _._signup_widget$_isLoading = false;
+      _.__ConsumerState_ref_FI = $;
+      _._framework$_element = _._widget = null;
+    },
+    _SignUpWidgetState__submit_closure: function _SignUpWidgetState__submit_closure(t0) {
+      this.$this = t0;
+    },
+    _SignUpWidgetState__submit_closure0: function _SignUpWidgetState__submit_closure0(t0) {
+      this.$this = t0;
+    },
+    _SignUpWidgetState_build_closure: function _SignUpWidgetState_build_closure() {
+    },
+    _SignUpWidgetState_build_closure0: function _SignUpWidgetState_build_closure0(t0) {
+      this.$this = t0;
+    },
+    _SignUpWidgetState_build__closure0: function _SignUpWidgetState_build__closure0(t0) {
+      this.$this = t0;
+    },
+    _SignUpWidgetState_build_closure1: function _SignUpWidgetState_build_closure1() {
+    },
+    _SignUpWidgetState_build_closure2: function _SignUpWidgetState_build_closure2(t0) {
+      this.$this = t0;
+    },
+    _SignUpWidgetState_build__closure: function _SignUpWidgetState_build__closure(t0) {
+      this.$this = t0;
+    },
+    _SignUpWidgetState_build_closure4: function _SignUpWidgetState_build_closure4(t0) {
+      this.$this = t0;
+    },
+    _SignUpWidgetState_build_closure3: function _SignUpWidgetState_build_closure3(t0) {
+      this.$this = t0;
+    },
+    SemanticsService_announce(message, textDirection, assertiveness) {
+      var $async$goto = 0,
+        $async$completer = B._makeAsyncAwaitCompleter(type$.void);
+      var $async$SemanticsService_announce = B._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1)
+          return B._asyncRethrow($async$result, $async$completer);
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              $async$goto = 2;
+              return B._asyncAwait(D.BasicMessageChannel_4lW.send$1(new A.AnnounceSemanticsEvent(message, textDirection, assertiveness, "announce").toMap$0()), $async$SemanticsService_announce);
+            case 2:
+              // returning from await.
+              // implicit return
+              return B._asyncReturn(null, $async$completer);
+          }
+      });
+      return B._asyncStartSync($async$SemanticsService_announce, $async$completer);
+    }
+  },
+  C, F, E, G, H;
+  B = holdersList[0];
+  D = holdersList[2];
+  A = hunkHelpers.updateHolder(holdersList[6], A);
+  C = holdersList[14];
+  F = holdersList[10];
+  E = holdersList[13];
+  G = holdersList[7];
+  H = holdersList[9];
+  A.ElevatedButton.prototype = {
+    defaultStyleOf$1(context) {
+      var _null = null;
+      B.Theme_of(context);
+      B.Theme_of(context);
+      return new A._ElevatedButtonDefaultsM3(context, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, D.Duration_200000, true, D.Alignment_0_0, _null, _null, _null);
+    },
+    themeStyleOf$1(context) {
+      var t1;
+      context.dependOnInheritedWidgetOfExactType$1$0(type$.ElevatedButtonTheme);
+      t1 = B.Theme_of(context);
+      return t1.elevatedButtonTheme.style;
+    }
+  };
+  A._ElevatedButtonDefaultsM3.prototype = {
+    get$_elevated_button$_colors() {
+      var t1, _this = this,
+        value = _this.___ElevatedButtonDefaultsM3__colors_FI;
+      if (value === $) {
+        t1 = B.Theme_of(_this.context);
+        _this.___ElevatedButtonDefaultsM3__colors_FI !== $ && B.throwUnnamedLateFieldADI();
+        value = _this.___ElevatedButtonDefaultsM3__colors_FI = t1.colorScheme;
+      }
+      return value;
+    },
+    get$textStyle() {
+      return new B.WidgetStatePropertyAll(B.Theme_of(this.context).textTheme.labelLarge, type$.WidgetStatePropertyAll_nullable_TextStyle);
+    },
+    get$backgroundColor() {
+      return new B._WidgetStatePropertyWith(new A._ElevatedButtonDefaultsM3_backgroundColor_closure(this), type$._WidgetStatePropertyWith_nullable_Color);
+    },
+    get$foregroundColor() {
+      return new B._WidgetStatePropertyWith(new A._ElevatedButtonDefaultsM3_foregroundColor_closure(this), type$._WidgetStatePropertyWith_nullable_Color);
+    },
+    get$overlayColor() {
+      return new B._WidgetStatePropertyWith(new A._ElevatedButtonDefaultsM3_overlayColor_closure(this), type$._WidgetStatePropertyWith_nullable_Color);
+    },
+    get$shadowColor() {
+      var t1 = this.get$_elevated_button$_colors()._shadow;
+      if (t1 == null)
+        t1 = D.Color_vnR;
+      return new B.WidgetStatePropertyAll(t1, type$.WidgetStatePropertyAll_Color);
+    },
+    get$surfaceTintColor() {
+      return D.WidgetStatePropertyAll_G5s;
+    },
+    get$elevation() {
+      return new B._WidgetStatePropertyWith(new A._ElevatedButtonDefaultsM3_elevation_closure(), type$._WidgetStatePropertyWith_double);
+    },
+    get$padding() {
+      return new B.WidgetStatePropertyAll(A._scaledPadding0(this.context), type$.WidgetStatePropertyAll_EdgeInsetsGeometry);
+    },
+    get$minimumSize() {
+      return E.WidgetStatePropertyAll_Size_64_40;
+    },
+    get$iconSize() {
+      return E.WidgetStatePropertyAll_18;
+    },
+    get$iconColor() {
+      return new B._WidgetStatePropertyWith(new A._ElevatedButtonDefaultsM3_iconColor_closure(this), type$._WidgetStatePropertyWith_Color);
+    },
+    get$maximumSize() {
+      return D.WidgetStatePropertyAll_HBn;
+    },
+    get$shape() {
+      return D.WidgetStatePropertyAll_oQi;
+    },
+    get$mouseCursor() {
+      return new B._WidgetStatePropertyWith(new A._ElevatedButtonDefaultsM3_mouseCursor_closure(), type$._WidgetStatePropertyWith_nullable_MouseCursor);
+    },
+    get$visualDensity() {
+      return B.Theme_of(this.context).visualDensity;
+    },
+    get$tapTargetSize() {
+      return B.Theme_of(this.context).materialTapTargetSize;
+    },
+    get$splashFactory() {
+      return B.Theme_of(this.context).splashFactory;
+    }
+  };
+  A.TextFormField.prototype = {
+    createState$0() {
+      var _null = null;
+      return new A._TextFormFieldState(new B.RestorableBool(false, $.$get$ChangeNotifier__emptyListeners()), B.FocusNode$(true, _null, true, true, _null, _null, false), _null, B.LinkedHashMap_LinkedHashMap$_empty(type$.RestorableProperty_nullable_Object, type$.void_Function), _null, true, _null);
+    }
+  };
+  A._TextFormFieldState.prototype = {
+    get$_text_form_field$_effectiveController() {
+      var t1 = type$.TextFormField._as(B.State.prototype.get$widget.call(this));
+      return t1.controller;
+    },
+    restoreState$2(oldBucket, initialRestore) {
+      var t1, _this = this;
+      _this.super$FormFieldState$restoreState(oldBucket, initialRestore);
+      t1 = _this._text_form_field$_controller;
+      if (t1 != null)
+        _this.registerForRestoration$2(t1, "controller");
+      _this.__FormFieldState__value_AI = _this.get$_text_form_field$_effectiveController()._change_notifier$_value.text;
+    },
+    initState$0() {
+      var t1, _this = this;
+      _this.super$FormFieldState$initState();
+      t1 = type$.TextFormField;
+      t1._as(B.State.prototype.get$widget.call(_this));
+      t1._as(B.State.prototype.get$widget.call(_this)).controller.addListener$1(_this.get$_handleControllerChanged());
+    },
+    didUpdateWidget$1(oldWidget) {
+      var t1, t2, t3, _this = this;
+      _this.super$FormFieldState$didUpdateWidget(oldWidget);
+      t1 = type$.TextFormField;
+      t2 = oldWidget.controller;
+      if (t1._as(B.State.prototype.get$widget.call(_this)).controller !== t2) {
+        t3 = _this.get$_handleControllerChanged();
+        t2.removeListener$1(t3);
+        t1._as(B.State.prototype.get$widget.call(_this)).controller.addListener$1(t3);
+        t1._as(B.State.prototype.get$widget.call(_this));
+        t1._as(B.State.prototype.get$widget.call(_this));
+        _this.__FormFieldState__value_AI = t1._as(B.State.prototype.get$widget.call(_this)).controller._change_notifier$_value.text;
+      }
+    },
+    dispose$0() {
+      var t1, _this = this;
+      type$.TextFormField._as(B.State.prototype.get$widget.call(_this)).controller.removeListener$1(_this.get$_handleControllerChanged());
+      t1 = _this._text_form_field$_controller;
+      if (t1 != null) {
+        t1._disposeOldValue$0();
+        t1.super$RestorableListenable$dispose();
+      }
+      _this.super$FormFieldState$dispose();
+    },
+    didChange$1(value) {
+      var t1;
+      this.super$FormFieldState$didChange(value);
+      if (this.get$_text_form_field$_effectiveController()._change_notifier$_value.text !== value) {
+        t1 = this.get$_text_form_field$_effectiveController();
+        t1.super$ValueNotifier$value(new B.TextEditingValue(value, D.TextSelection_kab, D.TextRange_m1_m1));
+      }
+    },
+    _handleControllerChanged$0() {
+      var _this = this;
+      if (_this.get$_text_form_field$_effectiveController()._change_notifier$_value.text !== _this.get$_form$_value())
+        _this.didChange$1(_this.get$_text_form_field$_effectiveController()._change_notifier$_value.text);
+    }
+  };
+  A.Assertiveness0.prototype = {
+    _enumToString$0() {
+      return "Assertiveness." + this._name;
+    }
+  };
+  A.AnnounceSemanticsEvent.prototype = {
+    getDataMap$0() {
+      var t2,
+        t1 = B.LinkedHashMap_LinkedHashMap$_empty(type$.String, type$.dynamic);
+      t1.$indexSet(0, "message", this.message);
+      t1.$indexSet(0, "textDirection", this.textDirection.index);
+      t2 = this.assertiveness;
+      if (t2 !== C.Assertiveness_00)
+        t1.$indexSet(0, "assertiveness", t2.index);
+      return t1;
+    }
+  };
+  A.Form.prototype = {
+    createState$0() {
+      return new A.FormState(B.LinkedHashSet_LinkedHashSet$_empty(type$.FormFieldState_dynamic));
+    }
+  };
+  A.FormState.prototype = {
+    _fieldDidChange$0() {
+      var _this = this;
+      _this._widget.toString;
+      _this._hasInteractedByUser = _this._fields.any$1(0, new A.FormState__fieldDidChange_closure());
+      _this._forceRebuild$0();
+    },
+    _forceRebuild$0() {
+      this.setState$1(new A.FormState__forceRebuild_closure(this));
+    },
+    build$1(context) {
+      var t1, t2, _this = this;
+      switch (_this._widget.autovalidateMode.index) {
+        case 1:
+          _this._validate$0();
+          break;
+        case 2:
+          if (_this._hasInteractedByUser)
+            _this._validate$0();
+          break;
+        case 3:
+        case 0:
+          break;
+      }
+      t1 = _this._widget;
+      t2 = _this._generation;
+      return new A.WillPopScope(A._FormScope$(t1.child, _this, t2), null, null);
+    },
+    validate$0() {
+      this._hasInteractedByUser = true;
+      this._forceRebuild$0();
+      return this._validate$0();
+    },
+    _validate$0() {
+      var t1, t2, hasError, t3, t4, errorMessage0, directionality, _box_0 = {},
+        errorMessage = _box_0.errorMessage = "";
+      this._widget.toString;
+      for (t1 = this._fields, t1 = B._LinkedHashSetIterator$(t1, t1._collection$_modifications, B._instanceType(t1)._precomputed1), t2 = t1.$ti._precomputed1, hasError = false; t1.moveNext$0();) {
+        t3 = t1._collection$_current;
+        if (t3 == null)
+          t3 = t2._as(t3);
+        t3._form$_focusNode.get$hasFocus();
+        hasError = D.JSBool_methods.$or(hasError, !t3.validate$0());
+        if (_box_0.errorMessage.length === 0) {
+          t3 = t3.__FormFieldState__errorText_F;
+          t3 === $ && B.throwUnnamedLateFieldNI();
+          t4 = t3._restoration_properties$_value;
+          errorMessage0 = t4 == null ? B._instanceType(t3)._eval$1("RestorableValue.T")._as(t4) : t4;
+          _box_0.errorMessage = errorMessage0 == null ? errorMessage : errorMessage0;
+        }
+      }
+      if (_box_0.errorMessage.length !== 0) {
+        directionality = this._framework$_element.dependOnInheritedWidgetOfExactType$1$0(type$.Directionality).textDirection;
+        if (B.defaultTargetPlatform() === D.TargetPlatform_2)
+          B.Future_Future(new A.FormState__validate_closure(_box_0, directionality), type$.void);
+        else
+          A.SemanticsService_announce(_box_0.errorMessage, directionality, C.Assertiveness_10);
+      }
+      return !hasError;
+    }
+  };
+  A._FormScope.prototype = {
+    updateShouldNotify$1(old) {
+      return this._generation !== old._generation;
+    }
+  };
+  A.FormField.prototype = {
+    createState$0() {
+      return A.FormFieldState$(B._instanceType(this)._eval$1("FormField.T"));
+    }
+  };
+  A.FormFieldState.prototype = {
+    get$_form$_value() {
+      var value = this.__FormFieldState__value_AI;
+      return value === $ ? this.__FormFieldState__value_AI = this._widget.initialValue : value;
+    },
+    validate$0() {
+      var t1, t2;
+      this.setState$1(new A.FormFieldState_validate_closure(this));
+      t1 = this.__FormFieldState__errorText_F;
+      t1 === $ && B.throwUnnamedLateFieldNI();
+      t2 = t1._restoration_properties$_value;
+      return (t2 == null ? B._instanceType(t1)._eval$1("RestorableValue.T")._as(t2) : t2) == null;
+    },
+    _validate$0() {
+      var t2,
+        t1 = this._widget;
+      t1.toString;
+      t2 = this.__FormFieldState__errorText_F;
+      t2 === $ && B.throwUnnamedLateFieldNI();
+      t2.set$value(t1.validator.call$1(this.get$_form$_value()));
+    },
+    didChange$1(value) {
+      var t1;
+      this.setState$1(new A.FormFieldState_didChange_closure(this, value));
+      t1 = this._framework$_element;
+      t1.toString;
+      t1 = A.Form_maybeOf(t1);
+      if (t1 != null)
+        t1._fieldDidChange$0();
+    },
+    get$restorationId() {
+      return this._widget.restorationId;
+    },
+    restoreState$2(oldBucket, initialRestore) {
+      var _this = this,
+        t1 = _this.__FormFieldState__errorText_F;
+      t1 === $ && B.throwUnnamedLateFieldNI();
+      _this.registerForRestoration$2(t1, "error_text");
+      _this.registerForRestoration$2(_this._hasInteractedByUser, "has_interacted_by_user");
+    },
+    deactivate$0() {
+      var t1 = this._framework$_element;
+      t1.toString;
+      t1 = A.Form_maybeOf(t1);
+      if (t1 != null)
+        t1._fields.remove$1(0, this);
+      this.super$State$deactivate();
+    },
+    initState$0() {
+      var t1, t2, _this = this;
+      _this.super$State$initState();
+      t1 = _this._widget.forceErrorText;
+      t2 = $.$get$ChangeNotifier__emptyListeners();
+      _this.__FormFieldState__errorText_F !== $ && B.throwUnnamedLateFieldAI();
+      _this.__FormFieldState__errorText_F = new A.RestorableStringN(t1, t2);
+    },
+    didUpdateWidget$1(oldWidget) {
+      this.super$_FormFieldState_State_RestorationMixin$didUpdateWidget(oldWidget);
+      this._widget.toString;
+    },
+    didChangeDependencies$0() {
+      this.super$_FormFieldState_State_RestorationMixin$didChangeDependencies();
+      var t1 = this._framework$_element;
+      t1.toString;
+      t1 = A.Form_maybeOf(t1);
+      switch (t1 == null ? null : t1._widget.autovalidateMode) {
+        case C.AutovalidateMode_1:
+          $.WidgetsBinding__instance.SchedulerBinding__postFrameCallbacks.push(new A.FormFieldState_didChangeDependencies_closure(this));
+          break;
+        case C.AutovalidateMode_3:
+        case C.AutovalidateMode_2:
+        case C.AutovalidateMode_0:
+        case null:
+        case void 0:
+          break;
+      }
+    },
+    dispose$0() {
+      var _this = this,
+        t1 = _this.__FormFieldState__errorText_F;
+      t1 === $ && B.throwUnnamedLateFieldNI();
+      t1.dispose$0();
+      _this._form$_focusNode.dispose$0();
+      _this._hasInteractedByUser.dispose$0();
+      _this.super$_FormFieldState_State_RestorationMixin$dispose();
+    },
+    build$1(context) {
+      var t2, _this = this, _null = null,
+        t1 = _this._widget;
+      switch (t1.autovalidateMode.index) {
+        case 1:
+          _this._validate$0();
+          break;
+        case 2:
+          t1 = _this._hasInteractedByUser;
+          t2 = t1._restoration_properties$_value;
+          if (t2 == null ? B._instanceType(t1)._eval$1("RestorableValue.T")._as(t2) : t2)
+            _this._validate$0();
+          break;
+        case 3:
+        case 0:
+          break;
+      }
+      t1 = A.Form_maybeOf(context);
+      if (t1 != null)
+        t1._fields.add$1(0, _this);
+      t1 = A.Form_maybeOf(context);
+      if ((t1 == null ? _null : t1._widget.autovalidateMode) === C.AutovalidateMode_3 && _this._widget.autovalidateMode !== C.AutovalidateMode_1 || _this._widget.autovalidateMode === C.AutovalidateMode_3)
+        return B.Focus$(false, false, _this._widget.builder.call$1(_this), _null, _null, _null, _this._form$_focusNode, true, _null, new A.FormFieldState_build_closure(_this), _null, _null, _null, true);
+      return _this._widget.builder.call$1(_this);
+    }
+  };
+  A.AutovalidateMode.prototype = {
+    _enumToString$0() {
+      return "AutovalidateMode." + this._name;
+    }
+  };
+  A._FormFieldState_State_RestorationMixin.prototype = {
+    didUpdateWidget$1(oldWidget) {
+      this.super$State$didUpdateWidget(oldWidget);
+      this.didUpdateRestorationId$0();
+    },
+    didChangeDependencies$0() {
+      var oldBucket, needsRestore, t1, didReplaceBucket, _this = this;
+      _this.super$State$didChangeDependencies();
+      oldBucket = _this.RestorationMixin__bucket;
+      needsRestore = _this.get$restorePending();
+      t1 = _this._framework$_element;
+      t1.toString;
+      t1 = B.RestorationScope_maybeOf(t1);
+      _this.RestorationMixin__currentParent = t1;
+      didReplaceBucket = _this._updateBucketIfNecessary$2$parent$restorePending(t1, needsRestore);
+      if (needsRestore) {
+        _this.restoreState$2(oldBucket, _this.RestorationMixin__firstRestorePending);
+        _this.RestorationMixin__firstRestorePending = false;
+      }
+      if (didReplaceBucket)
+        if (oldBucket != null)
+          oldBucket.dispose$0();
+    },
+    dispose$0() {
+      var t1, _this = this;
+      _this.RestorationMixin__properties.forEach$1(0, new A._FormFieldState_State_RestorationMixin_dispose_closure());
+      t1 = _this.RestorationMixin__bucket;
+      if (t1 != null)
+        t1.dispose$0();
+      _this.RestorationMixin__bucket = null;
+      _this.super$State$dispose();
+    }
+  };
+  A.RestorableStringN.prototype = {};
+  A.WillPopScope.prototype = {
+    createState$0() {
+      return new A._WillPopScopeState();
+    }
+  };
+  A._WillPopScopeState.prototype = {
+    didChangeDependencies$0() {
+      var t1, _this = this;
+      _this.super$State$didChangeDependencies();
+      _this._widget.toString;
+      t1 = _this._framework$_element;
+      t1.toString;
+      _this._route = B.ModalRoute__of(t1, null, type$.nullable_Object);
+      _this._widget.toString;
+    },
+    didUpdateWidget$1(oldWidget) {
+      this.super$State$didUpdateWidget(oldWidget);
+      this._widget.toString;
+    },
+    dispose$0() {
+      this._widget.toString;
+      this.super$State$dispose();
+    },
+    build$1(context) {
+      return this._widget.child;
+    }
+  };
+  A.AuthView.prototype = {
+    createState$0() {
+      return new A._AuthViewState();
+    }
+  };
+  A._AuthViewState.prototype = {
+    build$1(context) {
+      var t3, _this = this, _null = null,
+        t1 = _this._showLogin,
+        t2 = type$.JSArray_Widget;
+      t1 = B.Row$(B._setArrayType([new B.NavigationButtonWidget("Login", D.IconData_58290_false, new A._AuthViewState_build_closure(_this), false, t1, _null), C.SizedBox_16_null_null_null, new B.NavigationButtonWidget("Sign Up", C.IconData_58516_false, new A._AuthViewState_build_closure0(_this), false, !t1, _null)], t2), D.CrossAxisAlignment_2, D.MainAxisAlignment_2, D.MainAxisSize_1);
+      t3 = _this._showLogin ? C.LoginWidget_ValueKey_login : C.SignUpWidget_ValueKey_signup;
+      return B.Scaffold$(_null, D.Color_Edl, B.SafeArea$(true, B.Center$(H.SingleChildScrollView$(new B.ConstrainedBox(C.BoxConstraints_Y1Q, B.Column$(B._setArrayType([t1, C.SizedBox_null_32_null_null, B.AnimatedSwitcher$(t3, D.Duration_300000, new A._AuthViewState_build_closure1())], t2), D.CrossAxisAlignment_2, D.MainAxisAlignment_0, D.MainAxisSize_0), _null), C.EdgeInsets_24_32_24_32), _null, _null), true), false, _null);
+    }
+  };
+  A.LoginWidget.prototype = {
+    createState$0() {
+      var t1 = $.$get$ChangeNotifier__emptyListeners();
+      return new A._LoginWidgetState(new B.LabeledGlobalKey(null, type$.LabeledGlobalKey_FormState), new F.TextEditingController(E.TextEditingValue_Yyo, t1), new F.TextEditingController(E.TextEditingValue_Yyo, t1));
+    }
+  };
+  A._LoginWidgetState.prototype = {
+    dispose$0() {
+      var t1 = this._login_widget$_emailController,
+        t2 = $.$get$ChangeNotifier__emptyListeners();
+      t1.ChangeNotifier__listeners = t2;
+      t1.ChangeNotifier__count = 0;
+      t1 = this._login_widget$_passwordController;
+      t1.ChangeNotifier__listeners = t2;
+      t1.ChangeNotifier__count = 0;
+      this.super$State$dispose();
+    },
+    _login_widget$_submit$0() {
+      var $async$goto = 0,
+        $async$completer = B._makeAsyncAwaitCompleter(type$.void),
+        $async$handler = 1, $async$errorStack = [], $async$next = [], $async$self = this, e, errorMessage, t1, exception, t2, t3, $async$exception;
+      var $async$_login_widget$_submit$0 = B._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1) {
+          $async$errorStack.push($async$result);
+          $async$goto = $async$handler;
+        }
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              $async$goto = $async$self._login_widget$_formKey.get$currentState().validate$0() && !$async$self._login_widget$_isLoading ? 2 : 3;
+              break;
+            case 2:
+              // then
+              $async$self.setState$1(new A._LoginWidgetState__submit_closure($async$self));
+              $async$handler = 5;
+              $async$goto = 8;
+              return B._asyncAwait($async$self.get$ref().read$1$1($.$get$authRepositoryProvider(), type$.AuthRepository).signInWithEmailAndPassword$2$email$password(D.JSString_methods.trim$0($async$self._login_widget$_emailController._change_notifier$_value.text), D.JSString_methods.trim$0($async$self._login_widget$_passwordController._change_notifier$_value.text)), $async$_login_widget$_submit$0);
+            case 8:
+              // returning from await.
+              if ($async$self._framework$_element != null) {
+                t1 = $.$get$MainAppShell_shellNavigatorKey().get$currentState();
+                if (t1 != null)
+                  t1.pop$0();
+              }
+              $async$next.push(7);
+              // goto finally
+              $async$goto = 6;
+              break;
+            case 5:
+              // catch
+              $async$handler = 4;
+              $async$exception = $async$errorStack.pop();
+              t1 = B.unwrapException($async$exception);
+              if (t1 instanceof B.FirebaseAuthException) {
+                e = t1;
+                errorMessage = "An error occurred. Please try again.";
+                if (e.code === "user-not-found" || e.code === "wrong-password" || e.code === "invalid-credential")
+                  errorMessage = "Invalid email or password.";
+                else if (e.code === "invalid-email")
+                  errorMessage = "Please enter a valid email address.";
+                t1 = $async$self._framework$_element;
+                if (t1 != null) {
+                  t1 = t1.dependOnInheritedWidgetOfExactType$1$0(type$._ScaffoldMessengerScope)._scaffoldMessengerState;
+                  t2 = B.Text$(errorMessage, null, null, null, null, null, null);
+                  t3 = $async$self._framework$_element;
+                  t3.toString;
+                  t1.showSnackBar$1(B.SnackBar$(null, null, null, B.Theme_of(t3).colorScheme.error, null, D.Clip_1, null, t2, null, D.Duration_4000000, null, null, null, null, null, null, null, null, null));
+                }
+              } else {
+                t1 = $async$self._framework$_element;
+                if (t1 != null) {
+                  t1 = t1.dependOnInheritedWidgetOfExactType$1$0(type$._ScaffoldMessengerScope)._scaffoldMessengerState;
+                  t2 = $async$self._framework$_element;
+                  t2.toString;
+                  t1.showSnackBar$1(B.SnackBar$(null, null, null, B.Theme_of(t2).colorScheme.error, null, D.Clip_1, null, C.Text_EB5, null, D.Duration_4000000, null, null, null, null, null, null, null, null, null));
+                }
+              }
+              $async$next.push(7);
+              // goto finally
+              $async$goto = 6;
+              break;
+            case 4:
+              // uncaught
+              $async$next = [1];
+            case 6:
+              // finally
+              $async$handler = 1;
+              if ($async$self._framework$_element != null)
+                $async$self.setState$1(new A._LoginWidgetState__submit_closure0($async$self));
+              // goto the next finally handler
+              $async$goto = $async$next.pop();
+              break;
+            case 7:
+              // after finally
+            case 3:
+              // join
+              // implicit return
+              return B._asyncReturn(null, $async$completer);
+            case 1:
+              // rethrow
+              return B._asyncRethrow($async$errorStack.at(-1), $async$completer);
+          }
+      });
+      return B._asyncStartSync($async$_login_widget$_submit$0, $async$completer);
+    },
+    build$1(context) {
+      var t4, _this = this, _null = null,
+        isLoading = _this._login_widget$_isLoading,
+        t1 = A.TextFormField$(_this._login_widget$_emailController, F.InputDecoration$(_null, new G.OutlineInputBorder(4, B.BorderRadius$circular(8), E.BorderSide_ViT), _null, _null, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, "Email", true, _null, C.Icon_OIz, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null), E.TextInputType_5_null_null, false, _null, D.TextInputAction_6, new A._LoginWidgetState_build_closure()),
+        t2 = B.BorderRadius$circular(8),
+        t3 = _this._login_widget$_obscurePassword;
+      t2 = A.TextFormField$(_this._login_widget$_passwordController, F.InputDecoration$(_null, new G.OutlineInputBorder(4, t2, E.BorderSide_ViT), _null, _null, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, "Password", true, _null, C.Icon_3v8, _null, _null, _null, _null, _null, _null, B.IconButton$(_null, _null, B.Icon$(t3 ? C.IconData_59070_false : C.IconData_59069_false, _null, _null, _null, _null), _null, _null, new A._LoginWidgetState_build_closure0(_this), _null, _null, _null), _null, _null, _null, _null), _null, t3, new A._LoginWidgetState_build_closure1(_this), D.TextInputAction_2, new A._LoginWidgetState_build_closure2());
+      t3 = isLoading ? _null : _this.get$_login_widget$_submit();
+      t4 = B.ElevatedButton_styleFrom(_null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, C.Size_gZE, _null, _null, new B.RoundedRectangleBorder(B.BorderRadius$circular(8), D.BorderSide_Ah5), _null, _null, _null, _null);
+      return A.Form$(B.Column$(B._setArrayType([t1, C.SizedBox_null_16_null_null, t2, C.SizedBox_null_24_null_null, A.ElevatedButton$(isLoading ? C.SizedBox_vNi : C.Text_M6t, t3, t4)], type$.JSArray_Widget), D.CrossAxisAlignment_2, D.MainAxisAlignment_0, D.MainAxisSize_0), _this._login_widget$_formKey);
+    }
+  };
+  A.SignUpWidget.prototype = {
+    createState$0() {
+      var t1 = $.$get$ChangeNotifier__emptyListeners();
+      return new A._SignUpWidgetState(new B.LabeledGlobalKey(null, type$.LabeledGlobalKey_FormState), new F.TextEditingController(E.TextEditingValue_Yyo, t1), new F.TextEditingController(E.TextEditingValue_Yyo, t1), new F.TextEditingController(E.TextEditingValue_Yyo, t1));
+    }
+  };
+  A._SignUpWidgetState.prototype = {
+    dispose$0() {
+      var _this = this,
+        t1 = _this._emailController,
+        t2 = t1.ChangeNotifier__listeners = $.$get$ChangeNotifier__emptyListeners();
+      t1.ChangeNotifier__count = 0;
+      t1 = _this._passwordController;
+      t1.ChangeNotifier__listeners = t2;
+      t1.ChangeNotifier__count = 0;
+      t1 = _this._confirmPasswordController;
+      t1.ChangeNotifier__listeners = t2;
+      t1.ChangeNotifier__count = 0;
+      _this.super$State$dispose();
+    },
+    _submit$0() {
+      var $async$goto = 0,
+        $async$completer = B._makeAsyncAwaitCompleter(type$.void),
+        $async$handler = 1, $async$errorStack = [], $async$next = [], $async$self = this, userCredential, e, errorMessage, t1, exception, t2, t3, $async$exception;
+      var $async$_submit$0 = B._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1) {
+          $async$errorStack.push($async$result);
+          $async$goto = $async$handler;
+        }
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              $async$goto = $async$self._formKey.get$currentState().validate$0() && !$async$self._signup_widget$_isLoading ? 2 : 3;
+              break;
+            case 2:
+              // then
+              $async$self.setState$1(new A._SignUpWidgetState__submit_closure($async$self));
+              $async$handler = 5;
+              $async$goto = 8;
+              return B._asyncAwait($async$self.get$ref().read$1$1($.$get$authRepositoryProvider(), type$.AuthRepository).createUserWithEmailAndPassword$2$email$password(D.JSString_methods.trim$0($async$self._emailController._change_notifier$_value.text), D.JSString_methods.trim$0($async$self._passwordController._change_notifier$_value.text)), $async$_submit$0);
+            case 8:
+              // returning from await.
+              userCredential = $async$result;
+              if ($async$self._framework$_element != null && userCredential.get$user() != null)
+                B.print("TODO: Trigger data migration for user " + userCredential.get$user()._delegate._user.userInfo.uid);
+              if ($async$self._framework$_element != null) {
+                t1 = $.$get$MainAppShell_shellNavigatorKey().get$currentState();
+                if (t1 != null)
+                  t1.pop$0();
+              }
+              $async$next.push(7);
+              // goto finally
+              $async$goto = 6;
+              break;
+            case 5:
+              // catch
+              $async$handler = 4;
+              $async$exception = $async$errorStack.pop();
+              t1 = B.unwrapException($async$exception);
+              if (t1 instanceof B.FirebaseAuthException) {
+                e = t1;
+                errorMessage = "An error occurred. Please try again.";
+                if (e.code === "weak-password")
+                  errorMessage = "The password provided is too weak.";
+                else if (e.code === "email-already-in-use")
+                  errorMessage = "An account already exists for that email.";
+                else if (e.code === "invalid-email")
+                  errorMessage = "Please enter a valid email address.";
+                t1 = $async$self._framework$_element;
+                if (t1 != null) {
+                  t1 = t1.dependOnInheritedWidgetOfExactType$1$0(type$._ScaffoldMessengerScope)._scaffoldMessengerState;
+                  t2 = B.Text$(errorMessage, null, null, null, null, null, null);
+                  t3 = $async$self._framework$_element;
+                  t3.toString;
+                  t1.showSnackBar$1(B.SnackBar$(null, null, null, B.Theme_of(t3).colorScheme.error, null, D.Clip_1, null, t2, null, D.Duration_4000000, null, null, null, null, null, null, null, null, null));
+                }
+              } else {
+                t1 = $async$self._framework$_element;
+                if (t1 != null) {
+                  t1 = t1.dependOnInheritedWidgetOfExactType$1$0(type$._ScaffoldMessengerScope)._scaffoldMessengerState;
+                  t2 = $async$self._framework$_element;
+                  t2.toString;
+                  t1.showSnackBar$1(B.SnackBar$(null, null, null, B.Theme_of(t2).colorScheme.error, null, D.Clip_1, null, C.Text_D3I, null, D.Duration_4000000, null, null, null, null, null, null, null, null, null));
+                }
+              }
+              $async$next.push(7);
+              // goto finally
+              $async$goto = 6;
+              break;
+            case 4:
+              // uncaught
+              $async$next = [1];
+            case 6:
+              // finally
+              $async$handler = 1;
+              if ($async$self._framework$_element != null)
+                $async$self.setState$1(new A._SignUpWidgetState__submit_closure0($async$self));
+              // goto the next finally handler
+              $async$goto = $async$next.pop();
+              break;
+            case 7:
+              // after finally
+            case 3:
+              // join
+              // implicit return
+              return B._asyncReturn(null, $async$completer);
+            case 1:
+              // rethrow
+              return B._asyncRethrow($async$errorStack.at(-1), $async$completer);
+          }
+      });
+      return B._asyncStartSync($async$_submit$0, $async$completer);
+    },
+    build$1(context) {
+      var t4, t5, _this = this, _null = null,
+        isLoading = _this._signup_widget$_isLoading,
+        t1 = A.TextFormField$(_this._emailController, F.InputDecoration$(_null, new G.OutlineInputBorder(4, B.BorderRadius$circular(8), E.BorderSide_ViT), _null, _null, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, "Email", true, _null, C.Icon_OIz, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null), E.TextInputType_5_null_null, false, _null, D.TextInputAction_6, new A._SignUpWidgetState_build_closure()),
+        t2 = B.BorderRadius$circular(8),
+        t3 = _this._obscurePassword;
+      t2 = A.TextFormField$(_this._passwordController, F.InputDecoration$(_null, new G.OutlineInputBorder(4, t2, E.BorderSide_ViT), _null, _null, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, "Password", true, _null, C.Icon_3v8, _null, _null, _null, _null, _null, _null, B.IconButton$(_null, _null, B.Icon$(t3 ? C.IconData_59070_false : C.IconData_59069_false, _null, _null, _null, _null), _null, _null, new A._SignUpWidgetState_build_closure0(_this), _null, _null, _null), _null, _null, _null, _null), _null, t3, _null, D.TextInputAction_6, new A._SignUpWidgetState_build_closure1());
+      t3 = B.BorderRadius$circular(8);
+      t4 = _this._obscureConfirmPassword;
+      t3 = A.TextFormField$(_this._confirmPasswordController, F.InputDecoration$(_null, new G.OutlineInputBorder(4, t3, E.BorderSide_ViT), _null, _null, _null, _null, _null, _null, true, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, "Confirm Password", true, _null, C.Icon_3v8, _null, _null, _null, _null, _null, _null, B.IconButton$(_null, _null, B.Icon$(t4 ? C.IconData_59070_false : C.IconData_59069_false, _null, _null, _null, _null), _null, _null, new A._SignUpWidgetState_build_closure2(_this), _null, _null, _null), _null, _null, _null, _null), _null, t4, new A._SignUpWidgetState_build_closure3(_this), D.TextInputAction_2, new A._SignUpWidgetState_build_closure4(_this));
+      t4 = isLoading ? _null : _this.get$_submit();
+      t5 = B.ElevatedButton_styleFrom(_null, _null, _null, _null, _null, _null, _null, _null, _null, _null, _null, C.Size_gZE, _null, _null, new B.RoundedRectangleBorder(B.BorderRadius$circular(8), D.BorderSide_Ah5), _null, _null, _null, _null);
+      return A.Form$(B.Column$(B._setArrayType([t1, C.SizedBox_null_16_null_null, t2, C.SizedBox_null_16_null_null, t3, C.SizedBox_null_24_null_null, A.ElevatedButton$(isLoading ? C.SizedBox_vNi : C.Text_X2D, t4, t5)], type$.JSArray_Widget), D.CrossAxisAlignment_2, D.MainAxisAlignment_0, D.MainAxisSize_0), _this._formKey);
+    }
+  };
+  var typesOffset = hunkHelpers.updateTypes(["Future<~>()", "UnmanagedRestorationScope(FormFieldState<String>)", "~()", "bool(FormFieldState<@>)", "Widget(BuildContext,EditableTextState)"]);
+  A._ElevatedButtonDefaultsM3_backgroundColor_closure.prototype = {
+    call$1(states) {
+      var t1, t2;
+      if (states.contains$1(0, D.WidgetState_6)) {
+        t1 = this.$this.get$_elevated_button$_colors().onSurface;
+        return B.Color$fromARGB(31, t1.toARGB32$0() >>> 16 & 255, t1.toARGB32$0() >>> 8 & 255, t1.toARGB32$0() & 255);
+      }
+      t1 = this.$this.get$_elevated_button$_colors();
+      t2 = t1._surfaceContainerLow;
+      return t2 == null ? t1.surface : t2;
+    },
+    $signature: 8
+  };
+  A._ElevatedButtonDefaultsM3_foregroundColor_closure.prototype = {
+    call$1(states) {
+      var t1;
+      if (states.contains$1(0, D.WidgetState_6)) {
+        t1 = this.$this.get$_elevated_button$_colors().onSurface;
+        return B.Color$fromARGB(97, t1.toARGB32$0() >>> 16 & 255, t1.toARGB32$0() >>> 8 & 255, t1.toARGB32$0() & 255);
+      }
+      return this.$this.get$_elevated_button$_colors().primary;
+    },
+    $signature: 8
+  };
+  A._ElevatedButtonDefaultsM3_overlayColor_closure.prototype = {
+    call$1(states) {
+      if (states.contains$1(0, D.WidgetState_2))
+        return this.$this.get$_elevated_button$_colors().primary.withOpacity$1(0.1);
+      if (states.contains$1(0, D.WidgetState_0))
+        return this.$this.get$_elevated_button$_colors().primary.withOpacity$1(0.08);
+      if (states.contains$1(0, D.WidgetState_1))
+        return this.$this.get$_elevated_button$_colors().primary.withOpacity$1(0.1);
+      return null;
+    },
+    $signature: 101
+  };
+  A._ElevatedButtonDefaultsM3_elevation_closure.prototype = {
+    call$1(states) {
+      if (states.contains$1(0, D.WidgetState_6))
+        return 0;
+      if (states.contains$1(0, D.WidgetState_2))
+        return 1;
+      if (states.contains$1(0, D.WidgetState_0))
+        return 3;
+      if (states.contains$1(0, D.WidgetState_1))
+        return 1;
+      return 1;
+    },
+    $signature: 144
+  };
+  A._ElevatedButtonDefaultsM3_iconColor_closure.prototype = {
+    call$1(states) {
+      var t1, _this = this;
+      if (states.contains$1(0, D.WidgetState_6)) {
+        t1 = _this.$this.get$_elevated_button$_colors().onSurface;
+        return B.Color$fromARGB(97, t1.toARGB32$0() >>> 16 & 255, t1.toARGB32$0() >>> 8 & 255, t1.toARGB32$0() & 255);
+      }
+      if (states.contains$1(0, D.WidgetState_2))
+        return _this.$this.get$_elevated_button$_colors().primary;
+      if (states.contains$1(0, D.WidgetState_0))
+        return _this.$this.get$_elevated_button$_colors().primary;
+      if (states.contains$1(0, D.WidgetState_1))
+        return _this.$this.get$_elevated_button$_colors().primary;
+      return _this.$this.get$_elevated_button$_colors().primary;
+    },
+    $signature: 8
+  };
+  A._ElevatedButtonDefaultsM3_mouseCursor_closure.prototype = {
+    call$1(states) {
+      if (states.contains$1(0, D.WidgetState_6))
+        return D.SystemMouseCursor_basic;
+      return D.SystemMouseCursor_click;
+    },
+    $signature: 47
+  };
+  A.TextFormField_closure.prototype = {
+    call$1(field) {
+      var t1, effectiveDecoration, t2, t3, t4, t5, t6, t7, t8, _this = this;
+      type$._TextFormFieldState._as(field);
+      t1 = field._framework$_element;
+      t1.toString;
+      effectiveDecoration = _this.decoration.applyDefaults$1(B.Theme_of(t1).inputDecorationTheme);
+      t1 = field.RestorationMixin__bucket;
+      t2 = field.get$_text_form_field$_effectiveController();
+      t3 = field.__FormFieldState__errorText_F;
+      t3 === $ && B.throwUnnamedLateFieldNI();
+      t4 = t3._restoration_properties$_value;
+      t3 = effectiveDecoration.copyWith$1$errorText(t4 == null ? B._instanceType(t3)._eval$1("RestorableValue.T")._as(t4) : t4);
+      t4 = _this.readOnly;
+      t5 = _this.obscureText;
+      t6 = _this.smartDashesType;
+      t6 = t5 ? E.SmartDashesType_0 : E.SmartDashesType_1;
+      t7 = _this.smartQuotesType;
+      t7 = t5 ? E.SmartQuotesType_0 : E.SmartQuotesType_1;
+      t8 = _this.enableInteractiveSelection;
+      t8 = !t5 || !t4;
+      return B.UnmanagedRestorationScope$(t1, F.TextField$(_this.autocorrect, _this.autofillHints, _this.autofocus, _this.buildCounter, _this.canRequestFocus, _this.clipBehavior, _this.contentInsertionConfiguration, _this.contextMenuBuilder, t2, _this.cursorColor, _this.cursorErrorColor, _this.cursorHeight, _this.cursorOpacityAnimates, _this.cursorRadius, _this.cursorWidth, t3, _this.dragStartBehavior, _this.enableIMEPersonalizedLearning, t8, _this.enableSuggestions, true, _this.expands, _this.focusNode, _this.groupId, _this.ignorePointers, _this.inputFormatters, _this.keyboardAppearance, _this.keyboardType, _this.magnifierConfiguration, _this.maxLength, _this.maxLengthEnforcement, _this.maxLines, _this.minLines, _this.mouseCursor, t5, _this.obscuringCharacter, _this.onAppPrivateCommand, new A.TextFormField_closure_onChangedHandler(field, _this.onChanged), _this.onEditingComplete, _this.onFieldSubmitted, _this.onTap, _this.onTapAlwaysCalled, _this.onTapOutside, _this.onTapUpOutside, t4, _this.restorationId, _this.scribbleEnabled, _this.scrollController, _this.scrollPadding, _this.scrollPhysics, _this.selectionControls, _this.selectionHeightStyle, _this.selectionWidthStyle, _this.showCursor, t6, t7, _this.spellCheckConfiguration, _this.statesController, _this.strutStyle, _this.style, _this.stylusHandwritingEnabled, _this.textAlign, _this.textAlignVertical, _this.textCapitalization, _this.textDirection, _this.textInputAction, _this.toolbarOptions, _this.undoController));
+    },
+    $signature: typesOffset + 1
+  };
+  A.TextFormField_closure_onChangedHandler.prototype = {
+    call$1(value) {
+      this.field.didChange$1(value);
+    },
+    $signature: 39
+  };
+  A.FormState__fieldDidChange_closure.prototype = {
+    call$1(field) {
+      var t1 = field._hasInteractedByUser,
+        t2 = t1._restoration_properties$_value;
+      return t2 == null ? B._instanceType(t1)._eval$1("RestorableValue.T")._as(t2) : t2;
+    },
+    $signature: typesOffset + 3
+  };
+  A.FormState__forceRebuild_closure.prototype = {
+    call$0() {
+      ++this.$this._generation;
+    },
+    $signature: 0
+  };
+  A.FormState__validate_closure.prototype = {
+    call$0() {
+      var $async$goto = 0,
+        $async$completer = B._makeAsyncAwaitCompleter(type$.void),
+        $async$self = this;
+      var $async$call$0 = B._wrapJsFunctionForAsync(function($async$errorCode, $async$result) {
+        if ($async$errorCode === 1)
+          return B._asyncRethrow($async$result, $async$completer);
+        while (true)
+          switch ($async$goto) {
+            case 0:
+              // Function start
+              $async$goto = 2;
+              return B._asyncAwait(B.Future_Future$delayed(D.Duration_1000000, null, type$.void), $async$call$0);
+            case 2:
+              // returning from await.
+              A.SemanticsService_announce($async$self._box_0.errorMessage, $async$self.directionality, C.Assertiveness_10);
+              // implicit return
+              return B._asyncReturn(null, $async$completer);
+          }
+      });
+      return B._asyncStartSync($async$call$0, $async$completer);
+    },
+    $signature: 9
+  };
+  A.FormFieldState_validate_closure.prototype = {
+    call$0() {
+      this.$this._validate$0();
+    },
+    $signature: 0
+  };
+  A.FormFieldState_didChange_closure.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      t1.__FormFieldState__value_AI = this.value;
+      t1._hasInteractedByUser.super$RestorableValue$value(true);
+    },
+    $signature: 0
+  };
+  A.FormFieldState_didChangeDependencies_closure.prototype = {
+    call$1(__wc0_formal) {
+      var t3, t4, t5,
+        t1 = this.$this,
+        t2 = t1._widget;
+      t2.toString;
+      t3 = false;
+      t4 = t1.__FormFieldState__errorText_F;
+      t4 === $ && B.throwUnnamedLateFieldNI();
+      t5 = t4._restoration_properties$_value;
+      if ((t5 == null ? B._instanceType(t4)._eval$1("RestorableValue.T")._as(t5) : t5) == null) {
+        t2 = t2.validator.call$1(t1.get$_form$_value());
+        t2 = t2 == null;
+        t2 = !t2;
+      } else
+        t2 = t3;
+      if (t2)
+        t1.validate$0();
+    },
+    $signature: 6
+  };
+  A.FormFieldState_build_closure.prototype = {
+    call$1(value) {
+      var t1;
+      if (!value) {
+        t1 = this.$this;
+        t1.setState$1(new A.FormFieldState_build__closure(t1));
+      }
+    },
+    $signature: 32
+  };
+  A.FormFieldState_build__closure.prototype = {
+    call$0() {
+      this.$this._validate$0();
+    },
+    $signature: 0
+  };
+  A._FormFieldState_State_RestorationMixin_dispose_closure.prototype = {
+    call$2(property, listener) {
+      if (!property._restoration0$_disposed)
+        property.removeListener$1(listener);
+    },
+    $signature: 44
+  };
+  A._AuthViewState_build_closure.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      if (!t1._showLogin)
+        t1.setState$1(new A._AuthViewState_build__closure0(t1));
+    },
+    $signature: 0
+  };
+  A._AuthViewState_build__closure0.prototype = {
+    call$0() {
+      return this.$this._showLogin = true;
+    },
+    $signature: 0
+  };
+  A._AuthViewState_build_closure0.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      if (t1._showLogin)
+        t1.setState$1(new A._AuthViewState_build__closure(t1));
+    },
+    $signature: 0
+  };
+  A._AuthViewState_build__closure.prototype = {
+    call$0() {
+      return this.$this._showLogin = false;
+    },
+    $signature: 0
+  };
+  A._AuthViewState_build_closure1.prototype = {
+    call$2(child, animation) {
+      return new B.FadeTransition(animation, false, child, null);
+    },
+    $signature: 590
+  };
+  A._LoginWidgetState__submit_closure.prototype = {
+    call$0() {
+      return this.$this._login_widget$_isLoading = true;
+    },
+    $signature: 0
+  };
+  A._LoginWidgetState__submit_closure0.prototype = {
+    call$0() {
+      return this.$this._login_widget$_isLoading = false;
+    },
+    $signature: 0
+  };
+  A._LoginWidgetState_build_closure.prototype = {
+    call$1(value) {
+      if (D.JSString_methods.trim$0(value).length === 0 || !D.JSString_methods.contains$1(value, "@"))
+        return "Please enter a valid email address.";
+      return null;
+    },
+    $signature: 68
+  };
+  A._LoginWidgetState_build_closure0.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      t1.setState$1(new A._LoginWidgetState_build__closure(t1));
+    },
+    $signature: 0
+  };
+  A._LoginWidgetState_build__closure.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      t1._login_widget$_obscurePassword = !t1._login_widget$_obscurePassword;
+    },
+    $signature: 0
+  };
+  A._LoginWidgetState_build_closure2.prototype = {
+    call$1(value) {
+      var t1 = D.JSString_methods.trim$0(value);
+      if (t1.length === 0)
+        return "Please enter your password.";
+      return null;
+    },
+    $signature: 68
+  };
+  A._LoginWidgetState_build_closure1.prototype = {
+    call$1(__wc0_formal) {
+      return this.$this._login_widget$_submit$0();
+    },
+    $signature: 39
+  };
+  A._SignUpWidgetState__submit_closure.prototype = {
+    call$0() {
+      return this.$this._signup_widget$_isLoading = true;
+    },
+    $signature: 0
+  };
+  A._SignUpWidgetState__submit_closure0.prototype = {
+    call$0() {
+      return this.$this._signup_widget$_isLoading = false;
+    },
+    $signature: 0
+  };
+  A._SignUpWidgetState_build_closure.prototype = {
+    call$1(value) {
+      if (D.JSString_methods.trim$0(value).length === 0 || !D.JSString_methods.contains$1(value, "@"))
+        return "Please enter a valid email address.";
+      return null;
+    },
+    $signature: 68
+  };
+  A._SignUpWidgetState_build_closure0.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      t1.setState$1(new A._SignUpWidgetState_build__closure0(t1));
+    },
+    $signature: 0
+  };
+  A._SignUpWidgetState_build__closure0.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      t1._obscurePassword = !t1._obscurePassword;
+    },
+    $signature: 0
+  };
+  A._SignUpWidgetState_build_closure1.prototype = {
+    call$1(value) {
+      var t1 = D.JSString_methods.trim$0(value).length;
+      if (t1 === 0)
+        return "Please enter a password.";
+      if (t1 < 6)
+        return "Password must be at least 6 characters.";
+      return null;
+    },
+    $signature: 68
+  };
+  A._SignUpWidgetState_build_closure2.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      t1.setState$1(new A._SignUpWidgetState_build__closure(t1));
+    },
+    $signature: 0
+  };
+  A._SignUpWidgetState_build__closure.prototype = {
+    call$0() {
+      var t1 = this.$this;
+      t1._obscureConfirmPassword = !t1._obscureConfirmPassword;
+    },
+    $signature: 0
+  };
+  A._SignUpWidgetState_build_closure4.prototype = {
+    call$1(value) {
+      var t1 = D.JSString_methods.trim$0(value);
+      if (t1.length === 0)
+        return "Please confirm your password.";
+      if (value !== this.$this._passwordController._change_notifier$_value.text)
+        return "Passwords do not match.";
+      return null;
+    },
+    $signature: 68
+  };
+  A._SignUpWidgetState_build_closure3.prototype = {
+    call$1(__wc0_formal) {
+      return this.$this._submit$0();
+    },
+    $signature: 39
+  };
+  (function aliases() {
+    var _ = A.FormFieldState.prototype;
+    _.super$FormFieldState$didChange = _.didChange$1;
+    _.super$FormFieldState$restoreState = _.restoreState$2;
+    _.super$FormFieldState$initState = _.initState$0;
+    _.super$FormFieldState$didUpdateWidget = _.didUpdateWidget$1;
+    _.super$FormFieldState$dispose = _.dispose$0;
+    _ = A._FormFieldState_State_RestorationMixin.prototype;
+    _.super$_FormFieldState_State_RestorationMixin$didUpdateWidget = _.didUpdateWidget$1;
+    _.super$_FormFieldState_State_RestorationMixin$didChangeDependencies = _.didChangeDependencies$0;
+    _.super$_FormFieldState_State_RestorationMixin$dispose = _.dispose$0;
+  })();
+  (function installTearOffs() {
+    var _static_2 = hunkHelpers._static_2,
+      _instance_0_u = hunkHelpers._instance_0u;
+    _static_2(A, "text_form_field_TextFormField__defaultContextMenuBuilder$closure", "TextFormField__defaultContextMenuBuilder", 4);
+    _instance_0_u(A._TextFormFieldState.prototype, "get$_handleControllerChanged", "_handleControllerChanged$0", 2);
+    _instance_0_u(A._LoginWidgetState.prototype, "get$_login_widget$_submit", "_login_widget$_submit$0", 0);
+    _instance_0_u(A._SignUpWidgetState.prototype, "get$_submit", "_submit$0", 0);
+  })();
+  (function inheritance() {
+    var _mixinHard = hunkHelpers.mixinHard,
+      _inherit = hunkHelpers.inherit,
+      _inheritMany = hunkHelpers.inheritMany;
+    _inherit(A.ElevatedButton, B.ButtonStyleButton);
+    _inherit(A._ElevatedButtonDefaultsM3, B.ButtonStyle);
+    _inheritMany(B.Closure, [A._ElevatedButtonDefaultsM3_backgroundColor_closure, A._ElevatedButtonDefaultsM3_foregroundColor_closure, A._ElevatedButtonDefaultsM3_overlayColor_closure, A._ElevatedButtonDefaultsM3_elevation_closure, A._ElevatedButtonDefaultsM3_iconColor_closure, A._ElevatedButtonDefaultsM3_mouseCursor_closure, A.TextFormField_closure, A.TextFormField_closure_onChangedHandler, A.FormState__fieldDidChange_closure, A.FormFieldState_didChangeDependencies_closure, A.FormFieldState_build_closure, A._LoginWidgetState_build_closure, A._LoginWidgetState_build_closure2, A._LoginWidgetState_build_closure1, A._SignUpWidgetState_build_closure, A._SignUpWidgetState_build_closure1, A._SignUpWidgetState_build_closure4, A._SignUpWidgetState_build_closure3]);
+    _inheritMany(B.StatefulWidget, [A.FormField, A.Form, A.WillPopScope, A.AuthView]);
+    _inherit(A.TextFormField, A.FormField);
+    _inheritMany(B.State, [A._FormFieldState_State_RestorationMixin, A.FormState, A._WillPopScopeState, A._AuthViewState]);
+    _inherit(A.FormFieldState, A._FormFieldState_State_RestorationMixin);
+    _inherit(A._TextFormFieldState, A.FormFieldState);
+    _inheritMany(B._Enum, [A.Assertiveness0, A.AutovalidateMode]);
+    _inherit(A.AnnounceSemanticsEvent, B.SemanticsEvent);
+    _inheritMany(B.Closure0Args, [A.FormState__forceRebuild_closure, A.FormState__validate_closure, A.FormFieldState_validate_closure, A.FormFieldState_didChange_closure, A.FormFieldState_build__closure, A._AuthViewState_build_closure, A._AuthViewState_build__closure0, A._AuthViewState_build_closure0, A._AuthViewState_build__closure, A._LoginWidgetState__submit_closure, A._LoginWidgetState__submit_closure0, A._LoginWidgetState_build_closure0, A._LoginWidgetState_build__closure, A._SignUpWidgetState__submit_closure, A._SignUpWidgetState__submit_closure0, A._SignUpWidgetState_build_closure0, A._SignUpWidgetState_build__closure0, A._SignUpWidgetState_build_closure2, A._SignUpWidgetState_build__closure]);
+    _inherit(A._FormScope, B.InheritedWidget);
+    _inheritMany(B.Closure2Args, [A._FormFieldState_State_RestorationMixin_dispose_closure, A._AuthViewState_build_closure1]);
+    _inherit(A.RestorableStringN, B._RestorablePrimitiveValueN);
+    _inheritMany(B.ConsumerStatefulWidget, [A.LoginWidget, A.SignUpWidget]);
+    _inheritMany(B.ConsumerState, [A._LoginWidgetState, A._SignUpWidgetState]);
+    _mixinHard(A._FormFieldState_State_RestorationMixin, B.RestorationMixin);
+  })();
+  B._Universe_addRules(init.typeUniverse, JSON.parse('{"ElevatedButton":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[]},"_ElevatedButtonDefaultsM3":{"ButtonStyle":[]},"TextFormField":{"FormField":["String"],"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[],"FormField.T":"String"},"_TextFormFieldState":{"FormFieldState":["String"],"State":["FormField<String>"]},"Form":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[]},"FormState":{"State":["Form"]},"_FormScope":{"InheritedWidget":[],"ProxyWidget":[],"Widget":[],"DiagnosticableTree":[]},"FormField":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[]},"FormFieldState":{"State":["FormField<1>"]},"RestorableStringN":{"_RestorablePrimitiveValueN":["String?"],"RestorableValue":["String?"],"RestorableProperty":["String?"],"Listenable":[],"RestorableValue.T":"String?","_RestorablePrimitiveValueN.T":"String?"},"WillPopScope":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[]},"_WillPopScopeState":{"State":["WillPopScope"]},"AuthView":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[]},"_AuthViewState":{"State":["AuthView"]},"LoginWidget":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[]},"_LoginWidgetState":{"State":["LoginWidget"]},"SignUpWidget":{"StatefulWidget":[],"Widget":[],"DiagnosticableTree":[]},"_SignUpWidgetState":{"State":["SignUpWidget"]},"ElevatedButtonTheme":{"InheritedTheme":[],"InheritedWidget":[],"ProxyWidget":[],"Widget":[],"DiagnosticableTree":[]}}'));
+  B._Universe_addErasedTypes(init.typeUniverse, JSON.parse('{"_FormFieldState_State_RestorationMixin":1}'));
+  var type$ = (function rtii() {
+    var findType = B.findType;
+    return {
+      AuthRepository: findType("AuthRepository"),
+      Directionality: findType("Directionality"),
+      ElevatedButtonTheme: findType("ElevatedButtonTheme"),
+      FormFieldState_dynamic: findType("FormFieldState<@>"),
+      JSArray_Widget: findType("JSArray<Widget>"),
+      LabeledGlobalKey_FormState: findType("LabeledGlobalKey<FormState>"),
+      RestorableProperty_nullable_Object: findType("RestorableProperty<Object?>"),
+      String: findType("String"),
+      TextFormField: findType("TextFormField"),
+      ValueKey_String: findType("ValueKey<String>"),
+      WidgetStatePropertyAll_Color: findType("WidgetStatePropertyAll<Color>"),
+      WidgetStatePropertyAll_EdgeInsetsGeometry: findType("WidgetStatePropertyAll<EdgeInsetsGeometry>"),
+      WidgetStatePropertyAll_nullable_TextStyle: findType("WidgetStatePropertyAll<TextStyle?>"),
+      _FormScope: findType("_FormScope"),
+      _ScaffoldMessengerScope: findType("_ScaffoldMessengerScope"),
+      _TextFormFieldState: findType("_TextFormFieldState"),
+      _WidgetStatePropertyWith_Color: findType("_WidgetStatePropertyWith<Color>"),
+      _WidgetStatePropertyWith_double: findType("_WidgetStatePropertyWith<double>"),
+      _WidgetStatePropertyWith_nullable_Color: findType("_WidgetStatePropertyWith<Color?>"),
+      _WidgetStatePropertyWith_nullable_MouseCursor: findType("_WidgetStatePropertyWith<MouseCursor0?>"),
+      dynamic: findType("@"),
+      nullable_Object: findType("Object?"),
+      void: findType("~"),
+      void_Function: findType("~()")
+    };
+  })();
+  (function constants() {
+    C.Assertiveness_00 = new A.Assertiveness0(0, "polite");
+    C.Assertiveness_10 = new A.Assertiveness0(1, "assertive");
+    C.AutovalidateMode_0 = new A.AutovalidateMode(0, "disabled");
+    C.AutovalidateMode_1 = new A.AutovalidateMode(1, "always");
+    C.AutovalidateMode_2 = new A.AutovalidateMode(2, "onUserInteraction");
+    C.AutovalidateMode_3 = new A.AutovalidateMode(3, "onUnfocus");
+    C.BoxConstraints_Y1Q = new B.BoxConstraints(0, 400, 0, 1 / 0);
+    C.EdgeInsets_24_32_24_32 = new B.EdgeInsets(24, 32, 24, 32);
+    C.IconData_58516_false = new B.IconData(58516, false);
+    C.IconData_59069_false = new B.IconData(59069, false);
+    C.IconData_59070_false = new B.IconData(59070, false);
+    C.IconData_58289_false = new B.IconData(58289, false);
+    C.Icon_3v8 = new B.Icon(C.IconData_58289_false, null, null, null, null);
+    C.IconData_61464_false = new B.IconData(61464, false);
+    C.Icon_OIz = new B.Icon(C.IconData_61464_false, null, null, null, null);
+    C.ValueKey_login = new B.ValueKey("login", type$.ValueKey_String);
+    C.LoginWidget_ValueKey_login = new A.LoginWidget(C.ValueKey_login);
+    C.ValueKey_signup = new B.ValueKey("signup", type$.ValueKey_String);
+    C.SignUpWidget_ValueKey_signup = new A.SignUpWidget(C.ValueKey_signup);
+    C.Size_gZE = new B.Size(1 / 0, 50);
+    C.SizedBox_16_null_null_null = new B.SizedBox(16, null, null, null);
+    C.SizedBox_null_16_null_null = new B.SizedBox(null, 16, null, null);
+    C.SizedBox_null_24_null_null = new B.SizedBox(null, 24, null, null);
+    C.SizedBox_null_32_null_null = new B.SizedBox(null, 32, null, null);
+    C.CircularProgressIndicator_Sux = new B.CircularProgressIndicator(2, D.Color_wst, null);
+    C.SizedBox_vNi = new B.SizedBox(24, 24, C.CircularProgressIndicator_Sux, null);
+    C.Text_D3I = new B.Text("An unexpected error occurred during sign up.", null, null, null, null, null, null, null, null);
+    C.Text_EB5 = new B.Text("An unexpected error occurred.", null, null, null, null, null, null, null, null);
+    C.Text_M6t = new B.Text("Login", null, null, null, null, null, null, null, null);
+    C.Text_X2D = new B.Text("Sign Up", null, null, null, null, null, null, null, null);
+  })();
+};
+;
+((d, h) => {
+  d[h] = d.current;
+  d.eventLog.push({p: "main.dart.js_10", e: "endPart", h: h});
+})($__dart_deferred_initializers__, "4/+DsS0vX3Pw06Jx4KsSCf5xu8s=");
+;
