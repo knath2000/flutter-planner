@@ -148,7 +148,11 @@ cp -r build/web/* "$OUTPUT_DIR/"
 
 echo "Build output successfully copied to $OUTPUT_DIR"
 
-# (Optional) Create a basic config.json if needed for specific Vercel routing/overrides
+# Create a basic config.json to indicate Build Output API v3 usage
+echo '{ "version": 3 }' > .vercel/output/config.json
+echo "Created .vercel/output/config.json"
+
+# (Optional) Further overrides can be added to config.json if needed
 # echo '{ "version": 3 }' > .vercel/output/config.json
 
 echo "Build script finished."
