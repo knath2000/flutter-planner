@@ -31,6 +31,7 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
+/build/
 
 # Symbolication related
 app.*.symbols
@@ -45,6 +46,7 @@ app.*.map.json
 
 
 # Firebase Credentials
+# Firebase Credentials (Ensure this file is generated during build or config passed via env vars)
 lib/firebase_options.dart
 **/GoogleService-Info.plist
 **/google-services.json
