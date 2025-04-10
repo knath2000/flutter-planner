@@ -27,6 +27,9 @@ fi
 # Add Flutter to PATH
 export PATH="$FLUTTER_DIR/bin:$PATH"
 
+# Add exception for Flutter SDK directory ownership for Git
+git config --global --add safe.directory "$FLUTTER_DIR"
+
 # Verify Flutter installation
 echo "Verifying Flutter installation..."
 flutter --version
