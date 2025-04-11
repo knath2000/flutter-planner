@@ -182,20 +182,7 @@ function staleWhileRevalidateStrategy(request) {
     });
 }
 
-// Handle offline fallback
-self.addEventListener('fetch', (event) => {
-  if (event.request.mode === 'navigate') {
-    event.respondWith(
-      fetch(event.request)
-        .catch(() => {
-          return caches.match('/offline.html')
-            .then((response) => {
-              return response || new Response('You are offline and the offline page is not available.');
-            });
-        })
-    );
-  }
-});
+// Redundant fetch listener removed (Offline fallback handled in staleWhileRevalidateStrategy)
 
 // Background sync for offline actions
 self.addEventListener('sync', (event) => {
