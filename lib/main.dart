@@ -9,8 +9,8 @@ import 'firebase_options.dart'; // Import generated options
 // Import the custom theme
 import 'package:planner/presentation/theme/app_theme.dart';
 // Import the app shell (default entry point for offline-first)
-// import 'package:planner/presentation/navigation/main_app_shell.dart'; // No longer initial home
-import 'package:planner/presentation/navigation/splash_screen.dart'; // Import SplashScreen
+import 'package:planner/presentation/navigation/main_app_shell.dart'; // Restore as initial home
+// import 'package:planner/presentation/navigation/splash_screen.dart'; // Remove SplashScreen import
 // AuthWrapper will be imported and used later
 // import 'package:planner/features/auth/presentation/view/auth_wrapper.dart';
 
@@ -41,8 +41,8 @@ class MyApp extends StatelessWidget {
       // Apply the custom dark theme
       theme: AppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
-      // Use SplashScreen as initial home
-      home: const SplashScreen(),
+      // Use MainAppShell with improved navigation
+      home: const MainAppShell(),
       // Add theme mode for system preference support
       themeMode: ThemeMode.dark,
       // Add responsive design settings
