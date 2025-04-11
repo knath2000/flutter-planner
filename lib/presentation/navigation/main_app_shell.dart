@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:planner/features/dashboard/presentation/widgets/animated_background.dart';
+// import 'package:planner/features/dashboard/presentation/widgets/animated_background.dart'; // Temporarily commented out
 import 'package:planner/presentation/navigation/app_content.dart';
 import 'package:planner/presentation/navigation/app_header.dart';
 
@@ -20,7 +20,8 @@ class MainAppShell extends ConsumerWidget {
           return Stack(
             children: [
               // Layer 1: Animated Background
-              const Positioned.fill(child: AnimatedBackground()),
+              // Temporarily replace AnimatedBackground with a simple color
+              Positioned.fill(child: Container(color: Colors.black)),
 
               // Layer 2: App Content with Layout
               Column(
