@@ -4,12 +4,13 @@ import 'package:firebase_core/firebase_core.dart'; // Import Firebase Core
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 import 'firebase_options.dart'; // Import generated options
-import 'firebase_options.dart'; // Import generated options
+// Duplicate import removed
 
 // Import the custom theme
 import 'package:planner/presentation/theme/app_theme.dart';
 // Import the app shell (default entry point for offline-first)
-import 'package:planner/presentation/navigation/main_app_shell.dart';
+// import 'package:planner/presentation/navigation/main_app_shell.dart'; // No longer initial home
+import 'package:planner/presentation/navigation/splash_screen.dart'; // Import SplashScreen
 // AuthWrapper will be imported and used later
 // import 'package:planner/features/auth/presentation/view/auth_wrapper.dart';
 
@@ -40,8 +41,8 @@ class MyApp extends StatelessWidget {
       // Apply the custom dark theme
       theme: AppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
-      // Use MainAppShell with improved navigation
-      home: const MainAppShell(),
+      // Use SplashScreen as initial home
+      home: const SplashScreen(),
       // Add theme mode for system preference support
       themeMode: ThemeMode.dark,
       // Add responsive design settings
